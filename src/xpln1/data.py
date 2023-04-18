@@ -1,6 +1,6 @@
 import csv
 import math
-import copy
+import random
 import os
 dir_path = os.path.abspath(os.path.dirname(__file__))
 from operator import itemgetter
@@ -9,6 +9,8 @@ from cols import COLS
 from row import ROW
 import config
 import utils
+from rule import rule_list
+import discretization
 
 class DATA:
   def __init__(self, src={}, c=None):
@@ -39,7 +41,7 @@ class DATA:
     else:
       self.cols = COLS(t)
 
-  def stats(self, what, cols, nPlaces):
+  def stats(self, what="mid", cols=None, nPlaces=2):
     c = cols or self.cols.y
     stat = {}
     for item in c:
@@ -49,25 +51,32 @@ class DATA:
     #   return col.rnd(getattr(col, what)(), nPlaces), col.txt
     # return kap(cols or self.cols.y, fun)
 
-  # return best half recursively
-  def sway(self, rows=None, min=None, cols=None, above=None):
-    rows = rows or self.rows
-    min = min or (len(rows)**config._min)
-    cols = cols or self.cols.x
-    # node = {'data': self.clone(rows)}
-    ### clone
+  def clone(self, init={}):
     data = DATA(self.cols.names, 'col')
-    for r in rows:
+    for r in init:
       data.addrow(r)
-    node = {'data': data}
+    return data
 
-    if len(rows) >= 2*min:
-      left, right, node['A'], node['B'], node['mid'], _ = self.half(rows, cols, above)
-      if self.better(node['B'], node['A']):
-        left, right, node['A'], node['B'] = right, left, node['B'], node['A']
-      node['left'] = self.sway(left, min, cols, node['A'])
-    return node
-  
+  # return best, rest half recursively
+  def sway(self, rows=None, min=None, cols=None, above=None):
+
+    def worker(rows, worse, evals0=None, above=None):
+      if len(rows) <= len(self.rows)**config._min:
+        # get random item from 
+        tmp = []
+        for i in range(0, int(config._rest*len(rows))):
+          tmp.append(random.choice(worse))
+        return rows, tmp, evals0  
+      else:
+        l, r, A, B, c, evals = self.half(rows, None, above)
+        if self.better(B, A):
+          l, r, A, B = r, l, B, A
+        for row in r:
+          worse.append(row)
+        return worker(l, worse, evals+evals0, A)
+
+    best, rest, evals = worker(self.rows, [], 0)
+    return self.clone(best), self.clone(rest), evals
 
   def half(self, rows=None, cols=None, above=None):
     rows = rows if rows else self.rows
@@ -119,7 +128,6 @@ class DATA:
     # print(f"return: {(d/n)**(1/the['p'])}")
     return (d/n)**(1/config._p)
 
-
   def better(self, row1, row2):
     s1 = 0
     s2 = 0
@@ -133,3 +141,40 @@ class DATA:
       s1 = s1 - math.exp(col.w*(x-y)/len(ys))
       s2 = s2 - math.exp(col.w*(y-x)/len(ys))
     return s1/len(ys) < s2/len(ys)
+
+  def betters(self, n):
+    # stuck on how to make sorted work
+    tmp = sorted(self.rows, key=lambda row:self.better(row, self.rows[self.rows.index(row)-1]))
+    # tmp = sorted(data['rows'], cmp=lambda x,y:better(data, x, y))
+    return (tmp[0:n], tmp[n+1:]) if n else tmp
+  
+
+  def xpln(self, best, rest):
+    def v(has):
+      return utils.value(has, len(best.rows), len(rest.rows), "best")
+    def score(ranges):
+      rule = rule_list(ranges, maxSizes)
+      if rule:
+        # oo(showRule(rule))
+        print(utils.showRule(rule))
+        bestr = utils.selects(rule, best.rows)
+        restr = utils.selects(rule, rest.rows)
+
+        if len(bestr)+len(restr) > 0:
+          return v({'best': len(bestr), 'rest': len(restr)}), rule
+    tmp, maxSizes = [], {}
+
+    print('range', 'range.lo', 'range.hi')
+    for ranges in (discretization.bins(self.cols.x, {'best': best.rows, 'rest': rest.rows})):
+      maxSizes[ranges[0].txt] = len(ranges)
+      print()
+      
+      for range in ranges:
+        print(range.txt, range.lo, range.hi)
+        tmp.append({'range': range, 'max': len(ranges), 'val': v(range.y.has)})
+    
+    # reverser=True ??
+    rule, most = utils.firstN(sorted(tmp, key=itemgetter('val')), score)
+    return rule, most
+  
+

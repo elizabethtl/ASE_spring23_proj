@@ -7,6 +7,8 @@ datasets in [/data](./data/)
 
 experiments output in [/etc](./etc/)
 
+tables of results we did not include in the report is in [tables](./etc/tables/)
+
 report pdf at [/paper/main.pdf](./paper/main.pdf)
 
 -----

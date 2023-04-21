@@ -1,8 +1,6 @@
 \section{Methods}
 \label{sec:method}
 
-
-
 Sway recursively splits the dataset in half and finds the best cluster
 using a \textit{split} function. The \textit{split} function picks a
 random point and the two points with the largest Euclidean distance from
@@ -15,23 +13,25 @@ function is then executed on the better half. This process repeats until
 we reach a certain cluster size, by then we would have the best cluster.
 
 
-Our new proposed method is to add randomness when splitting data into two
-halves. The \textit{half()} splits data into two halves in sway, it
-first sorts all data according to the x columns. These x columns provide
-a basis for us to cluster similar data together. We do not compare the y
-columns when splitting data since we assume that in real-world scenarios
-it would be costly to acquire such values. However, we do don't know the
+Our new proposed method built on top of sway is to add randomness when
+splitting data into two halves. The \textit{half()} splits data into two
+halves in sway, it first sorts all data according to the x columns.
+These x columns provide a basis for us to cluster similar data together.
+We do not compare the y columns when splitting data since we assume that
+in real-world scenarios it would be costly to acquire such values.
+However, we do don't know the
 exact relation between the x columns (characteristics) and the y columns
 (objectives). Thus, we propose adding randomness, so we don't fully rely
 on unknown patterns in the data. We hope that the introduced randomness
-will help us find better objective values. Sway1 is the original sway,
-and sway2 is where we added randomness to the distance.
+will help us find better objective values. In the following sections, we
+refer to the original sway as sway1, and sway2 as our new method.
 
 We next describe the main implementation of randomness in our code. The
-\textit{dist} function in the data class calculates the distance of the
-x columns for two rows. We use a random coefficient (RAND in the
+\verb|dist| function in the data class calculates the distance of the
+x columns for two rows. We use a random coefficient (\verb|RAND| in the
 pseudocode below), to vary the distance by a certain percentage. In our
-experiments, we set this percentage to 15\%.
+experiments, we set this percentage to 15\%. This means a distance of 1
+would return a value ranging from -0.85 to 1.15.
 
 \begin{lstlisting}
   def dist(row1, row2):
@@ -41,23 +41,23 @@ experiments, we set this percentage to 15\%.
     n += 1
     d += col.dist(row1[col_index], 
             row2[col_index])**dist_coefficient
-  ## add randomness to comparing cols.x
-  d = d * (1+ random_num(-RAND, RAND))
+    d = d * (1+ random_num(-RAND, RAND))
 
-  return (d/n)**(1/dist_coefficient)
+    return (d/n)**(1/dist_coefficient)
 \end{lstlisting}
 
 We then applied sway to the \textit{xpln} method. The \textit{xpln}
 method takes the best cluster from sway and another random sample of
 data and tries to find a rule that would most effectively distinguish
-between the two. Xpln1 would be sway1 applied to sway, and xpln2 is
+between the two. Xpln1 would be sway1 applied to xpln, and xpln2 is
 sway2 applied to xpln.  
 
 The \textit{top} method goes through all data in the dataset to compare
 and sort based on a \textit{better} metric. The \textit{better} metric
-compares the y columns of the data. As some datasets had a large number
+compares the y columns of the data. As we compared each pair of data
+points, this resulted in $O(n^2)$ time. As some datasets had a large number
 of rows, we did not run the \textit{top} method for certain datasets due
-to time concerns.
+to time concerns. 
 
 
 \begin{table*}[h]
@@ -69,17 +69,27 @@ to time concerns.
 \end{table*}
 
 \subsection{Data}
-  Our dataset consists of ten datasets, each has two types of columns.
+  Our data consists of ten datasets, each has two types of columns.
   Columns with string values and columns with numeric values. Some
   columns have a plus or minus sign, this means they are the objectives,
   a minus sign means we try to minimize this value, while a plus sign
   means we try to maximize the value. Table \ref{tab:dataset} shows
-  statistics on these objective columns.
+  statistics on these objective columns.  
+
+  For example, the auto2 dataset has a total of twenty-three columns,
+  which includes four objectives, or y columns: \textit{CityMPG+,
+  HighwayMPG+, Weight-, Class-}. The remaining nineteen columns,
+  \textit{type, engine\_size, horsepower, etc.}, are x columns. 
+  Our methods would cluster data based on the nineteen x columns to
+  maximize or minimize the values of the objectives.
+
 
 \subsection{Experiments}
   We ran our model on samples of size 10, 25, 50, 100, 200, 500, and
   1000. For each sample size, we ran 20 repeated runs with different
-  seeds and calculated the average of the values we collected.
+  seeds and calculated the average of the values we collected. The
+  source code and experiment outputs can be found in the GitHub
+  repository. 
 
 
 

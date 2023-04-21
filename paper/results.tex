@@ -16,18 +16,33 @@ clustered x columns do not have as strong a correlation to certain
 objectives. For example, closely clustered x columns for coc1000 may not
 have similar values for the \textit{Effort} objective. 
 
-We also conducted experiments with different sample sizes in an attempt
-to achieve better results with more samples. However, we did not observe
-a clear correlation between sample sizes and the objectives. Table
-\ref{tab:sample_nasa93dem} shows varying sample sizes for the
-\textit{nasa93dem} dataset. Upon receiving these results, we went back
-to check how sample size was implemented in the code. Sample size has an
-effect when selecting the two points when splitting data into two
-halves. The first point is selected at random, and the second point is
-selected from a group of data that is of sample size. However, that is
-the extent of which sample size has an effect. Thus, we infer that
-sample size does not have enough effect in our code to influence the
-results. 
+\subsection{Sample size}
+  We also conducted experiments with different sample sizes in an attempt
+  to achieve better results with more samples. However, we did not observe
+  a clear correlation between sample sizes and the objectives. Table
+  \ref{tab:sample_nasa93dem} shows varying sample sizes for the
+  \textit{nasa93dem} dataset. Upon receiving these results, we went back
+  to check how sample size was implemented in the code. Sample size has an
+  effect when selecting the two points when splitting data into two
+  halves. The first point is selected at random, and the second point is
+  selected from a group of data that is of sample size. However, that is
+  the extent of which sample size has an effect. Thus, we infer that
+  sample size does not have enough effect in our code to influence the
+  results. 
+
+\subsection{Effect size and Significance tests}
+  With results from different models, we conducted the effect size test
+  using cliff's delta and the significance test using bootstrap. The
+  effect size test tests for relationship between two sets of data. We set
+  the threshold to 0.4 for medium effects. The confidence for the
+  significance test is set to 0.05. The conjunction of the two test
+  between different results is shown in table \ref{tab:tests}. For those
+  where the conjuction is \textit{=}, this means both tests return true,
+  which we can infer to meaning the two results are similar. We observe
+  that results from sway1 is similar to results from sway2. However, both
+  results from sway are not similar to results from top. It can also be
+  seen from the table that xpln returns slightly different results from
+  sway. 
 
 \begin{table}[]
   \begin{center}
@@ -205,4 +220,13 @@ results.
 \end{center}
 \caption{Results for different sample size for nasa93dem.csv}
 \label{tab:sample_nasa93dem}
-  \end{table}
+\end{table}
+
+
+\begin{table*}[h]
+  \begin{center}
+    \input{figures/test_subset.tex}
+  \end{center}
+  \caption{Results for effect size test and significance test}
+\label{tab:tests}
+\end{table*}

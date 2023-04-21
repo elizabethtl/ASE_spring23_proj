@@ -1,0 +1,135 @@
+/home/etlin/Documents/ncsu/spring2023_csc791_ase/ASE_spring23_proj/src/xpln1/../../data/SSN.csv
+-----------
+explain = {:no_cabac [1.0]}
+all               {: Energy- 1658.0 :PSNR- 44.53} {:PSNR- 6.47 : Energy- 1610.66}
+sway with 9 evals {:PSNR- 44.51 : Energy- 738.44} {:PSNR- 7.76 : Energy- 829.46}
+xpln on 9 evals   {:PSNR- 43.9 : Energy- 1395.37} {: Energy- 1342.6 :PSNR- 6.69}
+
+-----------
+explain = {:no_asm [1.0]}
+all               {: Energy- 1658.0 :PSNR- 44.53} {:PSNR- 6.47 : Energy- 1610.66}
+sway with 9 evals {: Energy- 3266.52 :PSNR- 42.87} {:PSNR- 8.87 : Energy- 2107.71}
+xpln on 9 evals   {: Energy- 3504.21 :PSNR- 43.9} {:PSNR- 6.76 : Energy- 2283.83}
+
+-----------
+explain = {:no_cabac [1.0]}
+all               {: Energy- 1658.0 :PSNR- 44.53} {:PSNR- 6.47 : Energy- 1610.66}
+sway with 9 evals {:PSNR- 42.85 : Energy- 1185.63} {: Energy- 551.89 :PSNR- 7.49}
+xpln on 9 evals   {:PSNR- 43.9 : Energy- 1395.37} {: Energy- 1342.6 :PSNR- 6.69}
+
+-----------
+explain = {:no_scenecut [1.0]}
+all               {: Energy- 1658.0 :PSNR- 44.53} {:PSNR- 6.47 : Energy- 1610.66}
+sway with 9 evals {:PSNR- 41.93 : Energy- 1206.65} {: Energy- 654.89 :PSNR- 7.24}
+xpln on 9 evals   {: Energy- 1407.69 :PSNR- 43.9} {:PSNR- 6.76 : Energy- 1353.11}
+
+-----------
+explain = {:no_cabac [1.0]}
+all               {: Energy- 1658.0 :PSNR- 44.53} {:PSNR- 6.47 : Energy- 1610.66}
+sway with 9 evals {: Energy- 1176.52 :PSNR- 42.6} {:PSNR- 6.8 : Energy- 803.31}
+xpln on 9 evals   {:PSNR- 43.9 : Energy- 1395.37} {: Energy- 1342.6 :PSNR- 6.69}
+
+-----------
+explain = {:no_scenecut [0.0]}
+all               {: Energy- 1658.0 :PSNR- 44.53} {:PSNR- 6.47 : Energy- 1610.66}
+sway with 9 evals {:PSNR- 46.87 : Energy- 476.66} {:PSNR- 11.38 : Energy- 204.47}
+xpln on 9 evals   {: Energy- 1734.46 :PSNR- 44.72} {:PSNR- 6.37 : Energy- 1674.06}
+
+-----------
+explain = {:Qp [[32.0, 35.0]]}
+all               {: Energy- 1658.0 :PSNR- 44.53} {:PSNR- 6.47 : Energy- 1610.66}
+sway with 9 evals {:PSNR- 43.41 : Energy- 1072.31} {:PSNR- 5.05 : Energy- 433.53}
+xpln on 9 evals   {: Energy- 1415.14 :PSNR- 44.41} {: Energy- 1213.51 :PSNR- 5.25}
+
+-----------
+explain = {:no_mbtree [1.0]}
+all               {: Energy- 1658.0 :PSNR- 44.53} {:PSNR- 6.47 : Energy- 1610.66}
+sway with 9 evals {: Energy- 730.87 :PSNR- 49.4} {: Energy- 406.86 :PSNR- 6.88}
+xpln on 9 evals   {: Energy- 1455.33 :PSNR- 46.13} {: Energy- 1479.96 :PSNR- 6.75}
+
+-----------
+explain = {:no_scenecut [1.0]}
+all               {: Energy- 1658.0 :PSNR- 44.53} {:PSNR- 6.47 : Energy- 1610.66}
+sway with 9 evals {: Energy- 487.79 :PSNR- 45.97} {: Energy- 107.14 :PSNR- 7.57}
+xpln on 9 evals   {: Energy- 1407.69 :PSNR- 43.9} {:PSNR- 6.76 : Energy- 1353.11}
+
+-----------
+explain = {:no_scenecut [1.0]}
+all               {: Energy- 1658.0 :PSNR- 44.53} {:PSNR- 6.47 : Energy- 1610.66}
+sway with 9 evals {:PSNR- 41.97 : Energy- 1260.23} {: Energy- 636.39 :PSNR- 6.81}
+xpln on 9 evals   {: Energy- 1407.69 :PSNR- 43.9} {:PSNR- 6.76 : Energy- 1353.11}
+
+-----------
+explain = {:no_cabac [1.0]}
+all               {: Energy- 1658.0 :PSNR- 44.53} {:PSNR- 6.47 : Energy- 1610.66}
+sway with 9 evals {:PSNR- 43.29 : Energy- 1166.34} {:PSNR- 7.36 : Energy- 598.86}
+xpln on 9 evals   {:PSNR- 43.9 : Energy- 1395.37} {: Energy- 1342.6 :PSNR- 6.69}
+
+-----------
+explain = {:no_scenecut [1.0]}
+all               {: Energy- 1658.0 :PSNR- 44.53} {:PSNR- 6.47 : Energy- 1610.66}
+sway with 9 evals {: Energy- 693.19 :PSNR- 45.04} {: Energy- 375.8 :PSNR- 5.99}
+xpln on 9 evals   {: Energy- 1407.69 :PSNR- 43.9} {:PSNR- 6.76 : Energy- 1353.11}
+
+-----------
+explain = {:no_mbtree [1.0]}
+all               {: Energy- 1658.0 :PSNR- 44.53} {:PSNR- 6.47 : Energy- 1610.66}
+sway with 9 evals {:PSNR- 48.48 : Energy- 667.64} {:PSNR- 5.86 : Energy- 498.73}
+xpln on 9 evals   {: Energy- 1455.33 :PSNR- 46.13} {: Energy- 1479.96 :PSNR- 6.75}
+
+-----------
+explain = {:no_scenecut [1.0]}
+all               {: Energy- 1658.0 :PSNR- 44.53} {:PSNR- 6.47 : Energy- 1610.66}
+sway with 9 evals {:PSNR- 43.52 : Energy- 1080.94} {: Energy- 448.4 :PSNR- 5.28}
+xpln on 9 evals   {: Energy- 1407.69 :PSNR- 43.9} {:PSNR- 6.76 : Energy- 1353.11}
+
+-----------
+explain = {:Keyint [[298.0, 364.0]]}
+all               {: Energy- 1658.0 :PSNR- 44.53} {:PSNR- 6.47 : Energy- 1610.66}
+sway with 9 evals {:PSNR- 44.99 : Energy- 945.9} {:PSNR- 6.65 : Energy- 542.37}
+xpln on 9 evals   {: Energy- 1479.83 :PSNR- 44.5} {: Energy- 1289.86 :PSNR- 5.28}
+
+-----------
+explain = {:no_cabac [0.0]}
+all               {: Energy- 1658.0 :PSNR- 44.53} {:PSNR- 6.47 : Energy- 1610.66}
+sway with 9 evals {: Energy- 1234.4 :PSNR- 43.72} {:PSNR- 8.97 : Energy- 926.17}
+xpln on 9 evals   {: Energy- 1738.22 :PSNR- 44.72} {: Energy- 1675.89 :PSNR- 6.39}
+
+-----------
+explain = {:Qp [[15.0, 18.0]]}
+all               {: Energy- 1658.0 :PSNR- 44.53} {:PSNR- 6.47 : Energy- 1610.66}
+sway with 9 evals {: Energy- 1561.56 :PSNR- 42.48} {:PSNR- 5.46 : Energy- 586.58}
+xpln on 9 evals   {: Energy- 1465.18 :PSNR- 44.57} {:PSNR- 5.35 : Energy- 1273.7}
+
+-----------
+explain = {:no_scenecut [1.0]}
+all               {: Energy- 1658.0 :PSNR- 44.53} {:PSNR- 6.47 : Energy- 1610.66}
+sway with 9 evals {: Energy- 568.73 :PSNR- 45.15} {: Energy- 96.56 :PSNR- 5.28}
+xpln on 9 evals   {: Energy- 1407.69 :PSNR- 43.9} {:PSNR- 6.76 : Energy- 1353.11}
+
+-----------
+explain = {:no_cabac [1.0]}
+all               {: Energy- 1658.0 :PSNR- 44.53} {:PSNR- 6.47 : Energy- 1610.66}
+sway with 9 evals {: Energy- 1114.66 :PSNR- 44.82} {: Energy- 867.71 :PSNR- 7.12}
+xpln on 9 evals   {:PSNR- 43.9 : Energy- 1395.37} {: Energy- 1342.6 :PSNR- 6.69}
+
+-----------
+explain = {:Seek [[-inf, 8.0]]}
+all               {: Energy- 1658.0 :PSNR- 44.53} {:PSNR- 6.47 : Energy- 1610.66}
+
+*** sway ***
+PSNR-: 44.480500000000006
+[44.51, 42.87, 42.85, 41.93, 42.6, 46.87, 43.41, 49.4, 45.97, 41.97, 43.29, 45.04, 48.48, 43.52, 44.99, 43.72, 42.48, 45.15, 44.82, 45.74]
+ Energy-: 1126.2830000000001
+[738.44, 3266.52, 1185.63, 1206.65, 1176.52, 476.66, 1072.31, 730.87, 487.79, 1260.23, 1166.34, 693.19, 667.64, 1080.94, 945.9, 1234.4, 1561.56, 568.73, 1114.66, 1890.68]
+***
+sway with 9 evals {: Energy- 1890.68 :PSNR- 45.74} {:PSNR- 9.77 : Energy- 1203.22}
+
+*** xpln ***
+PSNR-: 44.291999999999994
+[43.9, 43.9, 43.9, 43.9, 43.9, 44.72, 44.41, 46.13, 43.9, 43.9, 43.9, 43.9, 46.13, 43.9, 44.5, 44.72, 44.57, 43.9, 43.9, 43.86]
+ Energy-: 1621.3284999999994
+[1395.37, 3504.21, 1395.37, 1407.69, 1395.37, 1734.46, 1415.14, 1455.33, 1407.69, 1407.69, 1395.37, 1407.69, 1455.33, 1407.69, 1479.83, 1738.22, 1465.18, 1407.69, 1395.37, 2755.88]
+***
+xpln on 9 evals   {:PSNR- 43.86 : Energy- 2755.88} {:PSNR- 7.21 : Energy- 2421.63}
+

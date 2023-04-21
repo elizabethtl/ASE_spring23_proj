@@ -1,0 +1,156 @@
+/home/etlin/Documents/ncsu/spring2023_csc791_ase/ASE_spring23_proj/src/xpln1/../../data/china.csv
+-----------
+explain = {:Resource [[3.0, inf]]}
+all               {:N_effort- 4277.64} {:N_effort- 7071.25}
+sway with 6 evals {:N_effort- 1647.76} {:N_effort- 1485.09}
+xpln on 6 evals   {:N_effort- 8952.78} {:N_effort- 11847.85}
+sort with 499 evals {:N_effort- 151.29} {:N_effort- 45.97}
+
+-----------
+explain = {:PDR_AFP [[2.6, 8.2]]}
+all               {:N_effort- 4277.64} {:N_effort- 7071.25}
+sway with 6 evals {:N_effort- 584.88} {:N_effort- 532.09}
+xpln on 6 evals   {:N_effort- 2821.02} {:N_effort- 5485.3}
+sort with 499 evals {:N_effort- 151.29} {:N_effort- 45.97}
+
+-----------
+explain = {:Changed [[-inf, 161.0]]}
+all               {:N_effort- 4277.64} {:N_effort- 7071.25}
+sway with 6 evals {:N_effort- 6793.13} {:N_effort- 6978.28}
+xpln on 6 evals   {:N_effort- 4244.98} {:N_effort- 7245.58}
+sort with 499 evals {:N_effort- 144.0} {:N_effort- 43.9}
+
+-----------
+explain = {:Enquiry [[-inf, 30.0]]}
+all               {:N_effort- 4277.64} {:N_effort- 7071.25}
+sway with 6 evals {:N_effort- 331.79} {:N_effort- 233.07}
+xpln on 6 evals   {:N_effort- 2444.2} {:N_effort- 5044.54}
+sort with 499 evals {:N_effort- 140.14} {:N_effort- 42.84}
+
+-----------
+explain = {:Enquiry [[-inf, 30.0]]}
+all               {:N_effort- 4277.64} {:N_effort- 7071.25}
+sway with 6 evals {:N_effort- 1746.71} {:N_effort- 1109.11}
+xpln on 6 evals   {:N_effort- 2444.2} {:N_effort- 5044.54}
+sort with 499 evals {:N_effort- 151.29} {:N_effort- 45.97}
+
+-----------
+explain = {:NPDU_UFP [[-inf, 3.4]]}
+all               {:N_effort- 4277.64} {:N_effort- 7071.25}
+sway with 6 evals {:N_effort- 634.29} {:N_effort- 493.18}
+xpln on 6 evals   {:N_effort- 1209.95} {:N_effort- 1465.95}
+sort with 499 evals {:N_effort- 140.14} {:N_effort- 42.84}
+
+-----------
+explain = {:NPDR_AFP [[3.1, 10.0]]}
+all               {:N_effort- 4277.64} {:N_effort- 7071.25}
+sway with 6 evals {:N_effort- 6242.87} {:N_effort- 11142.61}
+xpln on 6 evals   {:N_effort- 3237.26} {:N_effort- 6002.5}
+sort with 499 evals {:N_effort- 144.0} {:N_effort- 43.9}
+
+-----------
+explain = {:PDR_UFP [[3.0, 9.3]]}
+all               {:N_effort- 4277.64} {:N_effort- 7071.25}
+sway with 6 evals {:N_effort- 1188.29} {:N_effort- 740.31}
+xpln on 6 evals   {:N_effort- 2898.12} {:N_effort- 5280.88}
+sort with 499 evals {:N_effort- 151.29} {:N_effort- 45.97}
+
+-----------
+explain = {:PDR_UFP [[-inf, 3.1]]}
+all               {:N_effort- 4277.64} {:N_effort- 7071.25}
+sway with 6 evals {:N_effort- 283.69} {:N_effort- 170.2}
+xpln on 6 evals   {:N_effort- 1152.93} {:N_effort- 1364.15}
+sort with 499 evals {:N_effort- 147.56} {:N_effort- 44.74}
+
+-----------
+explain = {:PDR_AFP [[2.3, 7.9]]}
+all               {:N_effort- 4277.64} {:N_effort- 7071.25}
+sway with 6 evals {:N_effort- 484.67} {:N_effort- 385.21}
+xpln on 6 evals   {:N_effort- 2812.16} {:N_effort- 5404.38}
+sort with 499 evals {:N_effort- 144.0} {:N_effort- 43.9}
+
+-----------
+explain = {:Resource [[-inf, 1.0]]}
+all               {:N_effort- 4277.64} {:N_effort- 7071.25}
+sway with 6 evals {:N_effort- 6585.18} {:N_effort- 7981.82}
+xpln on 6 evals   {:N_effort- 0.0} {:N_effort- 0.0}
+sort with 499 evals {:N_effort- 151.29} {:N_effort- 45.97}
+
+-----------
+explain = {:PDR_UFP [[9.2, 16.0]]}
+all               {:N_effort- 4277.64} {:N_effort- 7071.25}
+sway with 6 evals {:N_effort- 2285.75} {:N_effort- 1100.26}
+xpln on 6 evals   {:N_effort- 5621.21} {:N_effort- 7954.64}
+sort with 499 evals {:N_effort- 147.56} {:N_effort- 44.74}
+
+-----------
+explain = {:Resource [[-inf, 1.0]]}
+all               {:N_effort- 4277.64} {:N_effort- 7071.25}
+sway with 6 evals {:N_effort- 909.53} {:N_effort- 1124.68}
+xpln on 6 evals   {:N_effort- 0.0} {:N_effort- 0.0}
+sort with 499 evals {:N_effort- 144.0} {:N_effort- 43.9}
+
+-----------
+explain = {:PDR_UFP [[-inf, 3.0]]}
+all               {:N_effort- 4277.64} {:N_effort- 7071.25}
+sway with 6 evals {:N_effort- 1720.5} {:N_effort- 1985.08}
+xpln on 6 evals   {:N_effort- 1135.2} {:N_effort- 1376.16}
+sort with 499 evals {:N_effort- 147.56} {:N_effort- 44.74}
+
+-----------
+explain = {:NPDR_AFP [[3.2, 9.8]]}
+all               {:N_effort- 4277.64} {:N_effort- 7071.25}
+sway with 6 evals {:N_effort- 638.47} {:N_effort- 424.11}
+xpln on 6 evals   {:N_effort- 2891.81} {:N_effort- 4677.06}
+sort with 499 evals {:N_effort- 144.0} {:N_effort- 43.9}
+
+-----------
+explain = {:Output [[-inf, 76.0]]}
+all               {:N_effort- 4277.64} {:N_effort- 7071.25}
+sway with 6 evals {:N_effort- 734.38} {:N_effort- 419.2}
+xpln on 6 evals   {:N_effort- 2561.33} {:N_effort- 3580.01}
+sort with 499 evals {:N_effort- 147.56} {:N_effort- 44.74}
+
+-----------
+explain = {:Output [[-inf, 71.0]]}
+all               {:N_effort- 4277.64} {:N_effort- 7071.25}
+sway with 6 evals {:N_effort- 309.14} {:N_effort- 174.56}
+xpln on 6 evals   {:N_effort- 2500.95} {:N_effort- 3355.06}
+sort with 499 evals {:N_effort- 140.14} {:N_effort- 42.84}
+
+-----------
+explain = {:Enquiry [[-inf, 29.0]]}
+all               {:N_effort- 4277.64} {:N_effort- 7071.25}
+sway with 6 evals {:N_effort- 386.44} {:N_effort- 211.84}
+xpln on 6 evals   {:N_effort- 2444.19} {:N_effort- 5068.61}
+sort with 499 evals {:N_effort- 147.56} {:N_effort- 44.74}
+
+-----------
+explain = {:PDR_UFP [[-inf, 3.1]]}
+all               {:N_effort- 4277.64} {:N_effort- 7071.25}
+sway with 6 evals {:N_effort- 1725.67} {:N_effort- 1463.2}
+xpln on 6 evals   {:N_effort- 1152.93} {:N_effort- 1364.15}
+sort with 499 evals {:N_effort- 144.0} {:N_effort- 43.9}
+
+-----------
+explain = {:NPDR_AFP [[-inf, 3.3]]}
+all               {:N_effort- 4277.64} {:N_effort- 7071.25}
+
+*** sway ***
+N_effort-: 1800.389
+[1647.76, 584.88, 6793.13, 331.79, 1746.71, 634.29, 6242.87, 1188.29, 283.69, 484.67, 6585.18, 2285.75, 909.53, 1720.5, 638.47, 734.38, 309.14, 386.44, 1725.67, 774.64]
+***
+sway with 6 evals {:N_effort- 774.64} {:N_effort- 1357.69}
+
+*** xpln ***
+N_effort-: 2619.9024999999997
+[8952.78, 2821.02, 4244.98, 2444.2, 2444.2, 1209.95, 3237.26, 2898.12, 1152.93, 2812.16, 0.0, 5621.21, 0.0, 1135.2, 2891.81, 2561.33, 2500.95, 2444.19, 1152.93, 1872.83]
+***
+xpln on 6 evals   {:N_effort- 1872.83} {:N_effort- 6082.56}
+
+*** top ***
+N_effort-: 145.9405
+[151.29, 151.29, 144.0, 140.14, 151.29, 140.14, 144.0, 151.29, 147.56, 144.0, 151.29, 147.56, 144.0, 147.56, 144.0, 147.56, 140.14, 147.56, 144.0, 140.14]
+***
+sort with 499 evals {:N_effort- 140.14} {:N_effort- 42.84}
+

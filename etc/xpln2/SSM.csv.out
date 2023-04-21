@@ -1,0 +1,131 @@
+/home/etlin/Documents/ncsu/spring2023_csc791_ase/ASE_spring23_proj/src/xpln2/../../data/SSM.csv
+-----------
+explain = {:lINE [1.0]}
+all               {:NUMBERITERATIONS- 30.94} {:NUMBERITERATIONS- 94.53}
+sway with 10 evals {:NUMBERITERATIONS- 4.38} {:NUMBERITERATIONS- 0.62}
+xpln on 10 evals   {:NUMBERITERATIONS- 9.69} {:NUMBERITERATIONS- 20.07}
+
+-----------
+explain = {:zEBRALINE [1.0]}
+all               {:NUMBERITERATIONS- 30.94} {:NUMBERITERATIONS- 94.53}
+sway with 10 evals {:NUMBERITERATIONS- 4.18} {:NUMBERITERATIONS- 0.65}
+xpln on 10 evals   {:NUMBERITERATIONS- 8.77} {:NUMBERITERATIONS- 19.15}
+
+-----------
+explain = {:zEBRALINE [1.0]}
+all               {:NUMBERITERATIONS- 30.94} {:NUMBERITERATIONS- 94.53}
+sway with 10 evals {:NUMBERITERATIONS- 5.87} {:NUMBERITERATIONS- 9.03}
+xpln on 10 evals   {:NUMBERITERATIONS- 8.77} {:NUMBERITERATIONS- 19.15}
+
+-----------
+explain = {:lINE [1.0]}
+all               {:NUMBERITERATIONS- 30.94} {:NUMBERITERATIONS- 94.53}
+sway with 10 evals {:NUMBERITERATIONS- 4.77} {:NUMBERITERATIONS- 0.71}
+xpln on 10 evals   {:NUMBERITERATIONS- 9.69} {:NUMBERITERATIONS- 20.07}
+
+-----------
+explain = {:cOLORGS [1.0]}
+all               {:NUMBERITERATIONS- 30.94} {:NUMBERITERATIONS- 94.53}
+sway with 10 evals {:NUMBERITERATIONS- 10.84} {:NUMBERITERATIONS- 17.92}
+xpln on 10 evals   {:NUMBERITERATIONS- 12.48} {:NUMBERITERATIONS- 29.47}
+
+-----------
+explain = {:zEBRALINE [1.0]}
+all               {:NUMBERITERATIONS- 30.94} {:NUMBERITERATIONS- 94.53}
+sway with 10 evals {:NUMBERITERATIONS- 5.07} {:NUMBERITERATIONS- 1.01}
+xpln on 10 evals   {:NUMBERITERATIONS- 8.77} {:NUMBERITERATIONS- 19.15}
+
+-----------
+explain = {:zEBRALINE [1.0]}
+all               {:NUMBERITERATIONS- 30.94} {:NUMBERITERATIONS- 94.53}
+sway with 10 evals {:NUMBERITERATIONS- 4.05} {:NUMBERITERATIONS- 0.22}
+xpln on 10 evals   {:NUMBERITERATIONS- 8.77} {:NUMBERITERATIONS- 19.15}
+
+-----------
+explain = {:lINE [1.0]}
+all               {:NUMBERITERATIONS- 30.94} {:NUMBERITERATIONS- 94.53}
+sway with 10 evals {:NUMBERITERATIONS- 6.84} {:NUMBERITERATIONS- 5.22}
+xpln on 10 evals   {:NUMBERITERATIONS- 9.69} {:NUMBERITERATIONS- 20.07}
+
+-----------
+explain = {:lINE [1.0]}
+all               {:NUMBERITERATIONS- 30.94} {:NUMBERITERATIONS- 94.53}
+sway with 10 evals {:NUMBERITERATIONS- 4.16} {:NUMBERITERATIONS- 0.47}
+xpln on 10 evals   {:NUMBERITERATIONS- 9.69} {:NUMBERITERATIONS- 20.07}
+
+-----------
+explain = {:zEBRALINE [1.0]}
+all               {:NUMBERITERATIONS- 30.94} {:NUMBERITERATIONS- 94.53}
+sway with 10 evals {:NUMBERITERATIONS- 10.47} {:NUMBERITERATIONS- 21.68}
+xpln on 10 evals   {:NUMBERITERATIONS- 8.77} {:NUMBERITERATIONS- 19.15}
+
+-----------
+explain = {:lINE [1.0]}
+all               {:NUMBERITERATIONS- 30.94} {:NUMBERITERATIONS- 94.53}
+sway with 10 evals {:NUMBERITERATIONS- 4.08} {:NUMBERITERATIONS- 0.55}
+xpln on 10 evals   {:NUMBERITERATIONS- 9.69} {:NUMBERITERATIONS- 20.07}
+
+-----------
+explain = {:zEBRALINE [1.0]}
+all               {:NUMBERITERATIONS- 30.94} {:NUMBERITERATIONS- 94.53}
+sway with 10 evals {:NUMBERITERATIONS- 14.2} {:NUMBERITERATIONS- 23.67}
+xpln on 10 evals   {:NUMBERITERATIONS- 8.77} {:NUMBERITERATIONS- 19.15}
+
+-----------
+explain = {:cOLORGS [1.0]}
+all               {:NUMBERITERATIONS- 30.94} {:NUMBERITERATIONS- 94.53}
+sway with 10 evals {:NUMBERITERATIONS- 4.86} {:NUMBERITERATIONS- 0.62}
+xpln on 10 evals   {:NUMBERITERATIONS- 12.48} {:NUMBERITERATIONS- 29.47}
+
+-----------
+explain = {:zEBRALINE [1.0]}
+all               {:NUMBERITERATIONS- 30.94} {:NUMBERITERATIONS- 94.53}
+sway with 10 evals {:NUMBERITERATIONS- 4.51} {:NUMBERITERATIONS- 0.95}
+xpln on 10 evals   {:NUMBERITERATIONS- 8.77} {:NUMBERITERATIONS- 19.15}
+
+-----------
+explain = {:zEBRALINE [1.0]}
+all               {:NUMBERITERATIONS- 30.94} {:NUMBERITERATIONS- 94.53}
+sway with 10 evals {:NUMBERITERATIONS- 4.23} {:NUMBERITERATIONS- 0.62}
+xpln on 10 evals   {:NUMBERITERATIONS- 8.77} {:NUMBERITERATIONS- 19.15}
+
+-----------
+explain = {:zEBRALINE [1.0]}
+all               {:NUMBERITERATIONS- 30.94} {:NUMBERITERATIONS- 94.53}
+sway with 10 evals {:NUMBERITERATIONS- 4.1} {:NUMBERITERATIONS- 0.3}
+xpln on 10 evals   {:NUMBERITERATIONS- 8.77} {:NUMBERITERATIONS- 19.15}
+
+-----------
+explain = {:zEBRALINE [1.0]}
+all               {:NUMBERITERATIONS- 30.94} {:NUMBERITERATIONS- 94.53}
+sway with 10 evals {:NUMBERITERATIONS- 8.03} {:NUMBERITERATIONS- 7.82}
+xpln on 10 evals   {:NUMBERITERATIONS- 8.77} {:NUMBERITERATIONS- 19.15}
+
+-----------
+explain = {:zEBRALINE [1.0]}
+all               {:NUMBERITERATIONS- 30.94} {:NUMBERITERATIONS- 94.53}
+sway with 10 evals {:NUMBERITERATIONS- 9.91} {:NUMBERITERATIONS- 27.15}
+xpln on 10 evals   {:NUMBERITERATIONS- 8.77} {:NUMBERITERATIONS- 19.15}
+
+-----------
+explain = {:zEBRALINE [1.0]}
+all               {:NUMBERITERATIONS- 30.94} {:NUMBERITERATIONS- 94.53}
+sway with 10 evals {:NUMBERITERATIONS- 4.83} {:NUMBERITERATIONS- 1.24}
+xpln on 10 evals   {:NUMBERITERATIONS- 8.77} {:NUMBERITERATIONS- 19.15}
+
+-----------
+explain = {:zEBRALINE [1.0]}
+all               {:NUMBERITERATIONS- 30.94} {:NUMBERITERATIONS- 94.53}
+
+*** sway ***
+NUMBERITERATIONS-: 6.272499999999999
+[4.38, 4.18, 5.87, 4.77, 10.84, 5.07, 4.05, 6.84, 4.16, 10.47, 4.08, 14.2, 4.86, 4.51, 4.23, 4.1, 8.03, 9.91, 4.83, 6.07]
+***
+sway with 10 evals {:NUMBERITERATIONS- 6.07} {:NUMBERITERATIONS- 4.43}
+
+*** xpln ***
+NUMBERITERATIONS-: 9.371000000000002
+[9.69, 8.77, 8.77, 9.69, 12.48, 8.77, 8.77, 9.69, 9.69, 8.77, 9.69, 8.77, 12.48, 8.77, 8.77, 8.77, 8.77, 8.77, 8.77, 8.77]
+***
+xpln on 10 evals   {:NUMBERITERATIONS- 8.77} {:NUMBERITERATIONS- 19.15}
+

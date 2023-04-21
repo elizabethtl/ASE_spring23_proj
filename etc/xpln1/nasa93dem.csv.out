@@ -1,0 +1,174 @@
+/home/etlin/Documents/ncsu/spring2023_csc791_ase/ASE_spring23_proj/src/xpln1/../../data/nasa93dem.csv
+-----------
+explain = {:stor ['h']}
+all               {:Kloc+ 94.02 :Defects- 3761.76 :Months- 24.18 :Effort- 624.41} {:Effort- 1135.93 :Defects- 6145.06 :Kloc+ 133.6 :Months- 12.97}
+sway with 5 evals {:Effort- 728.86 :Kloc+ 94.99 :Defects- 3524.0 :Months- 27.8} {:Months- 8.98 :Defects- 2848.93 :Effort- 799.49 :Kloc+ 83.15}
+xpln on 5 evals   {:Months- 30.11 :Effort- 887.7 :Kloc+ 111.74 :Defects- 4740.5} {:Kloc+ 83.06 :Effort- 807.53 :Months- 7.74 :Defects- 3665.72}
+sort with 93 evals {:Kloc+ 4.86 :Effort- 19.54 :Defects- 151.71 :Months- 8.4} {:Effort- 11.21 :Months- 2.06 :Kloc+ 2.75 :Defects- 85.99}
+
+-----------
+explain = {:sced ['l']}
+all               {:Kloc+ 94.02 :Defects- 3761.76 :Months- 24.18 :Effort- 624.41} {:Effort- 1135.93 :Defects- 6145.06 :Kloc+ 133.6 :Months- 12.97}
+sway with 5 evals {:Kloc+ 5.77 :Defects- 180.0 :Effort- 22.4 :Months- 8.71} {:Defects- 116.85 :Kloc+ 3.75 :Months- 2.39 :Effort- 15.81}
+xpln on 5 evals   {:Effort- 276.79 :Months- 18.69 :Kloc+ 66.26 :Defects- 2816.68} {:Kloc+ 79.34 :Effort- 347.06 :Months- 8.85 :Defects- 3638.11}
+sort with 93 evals {:Kloc+ 4.86 :Effort- 19.54 :Defects- 151.71 :Months- 8.4} {:Effort- 11.21 :Months- 2.06 :Kloc+ 2.75 :Defects- 85.99}
+
+-----------
+explain = {:time ['vh']}
+all               {:Kloc+ 94.02 :Defects- 3761.76 :Months- 24.18 :Effort- 624.41} {:Effort- 1135.93 :Defects- 6145.06 :Kloc+ 133.6 :Months- 12.97}
+sway with 5 evals {:Effort- 121.83 :Defects- 1130.67 :Kloc+ 21.98 :Months- 16.58} {:Months- 2.54 :Defects- 473.96 :Effort- 56.92 :Kloc+ 9.62}
+xpln on 5 evals   {:Kloc+ 45.86 :Effort- 375.34 :Defects- 2006.89 :Months- 20.43} {:Effort- 371.09 :Defects- 2165.73 :Months- 6.63 :Kloc+ 60.72}
+sort with 93 evals {:Kloc+ 4.3 :Defects- 134.33 :Months- 8.07 :Effort- 16.8} {:Kloc+ 2.55 :Effort- 9.36 :Defects- 79.6 :Months- 2.04}
+
+-----------
+explain = {:data ['n']}
+all               {:Kloc+ 94.02 :Defects- 3761.76 :Months- 24.18 :Effort- 624.41} {:Effort- 1135.93 :Defects- 6145.06 :Kloc+ 133.6 :Months- 12.97}
+sway with 5 evals {:Kloc+ 139.07 :Effort- 569.14 :Months- 26.57 :Defects- 5524.43} {:Months- 7.58 :Effort- 812.53 :Defects- 5885.23 :Kloc+ 134.43}
+xpln on 5 evals   {:Months- 25.42 :Defects- 3830.35 :Kloc+ 97.5 :Effort- 502.45} {:Kloc+ 102.8 :Months- 9.71 :Effort- 652.05 :Defects- 4020.77}
+sort with 93 evals {:Kloc+ 4.86 :Effort- 19.54 :Defects- 151.71 :Months- 8.4} {:Effort- 11.21 :Months- 2.06 :Kloc+ 2.75 :Defects- 85.99}
+
+-----------
+explain = {:pcap ['n']}
+all               {:Kloc+ 94.02 :Defects- 3761.76 :Months- 24.18 :Effort- 624.41} {:Effort- 1135.93 :Defects- 6145.06 :Kloc+ 133.6 :Months- 12.97}
+sway with 5 evals {:Kloc+ 73.26 :Months- 23.73 :Defects- 2702.43 :Effort- 557.29} {:Defects- 2977.77 :Months- 9.96 :Effort- 852.32 :Kloc+ 89.63}
+xpln on 5 evals   {:Months- 19.28 :Defects- 2014.82 :Effort- 348.7 :Kloc+ 50.33} {:Kloc+ 73.91 :Months- 9.51 :Effort- 543.39 :Defects- 2770.34}
+sort with 93 evals {:Kloc+ 4.86 :Effort- 19.54 :Defects- 151.71 :Months- 8.4} {:Effort- 11.21 :Months- 2.06 :Kloc+ 2.75 :Defects- 85.99}
+
+-----------
+explain = {:apex ['n']}
+all               {:Kloc+ 94.02 :Defects- 3761.76 :Months- 24.18 :Effort- 624.41} {:Effort- 1135.93 :Defects- 6145.06 :Kloc+ 133.6 :Months- 12.97}
+sway with 5 evals {:Effort- 48.0 :Kloc+ 10.19 :Months- 10.24 :Defects- 330.14} {:Kloc+ 10.56 :Effort- 49.2 :Months- 4.06 :Defects- 325.91}
+xpln on 5 evals   {:Kloc+ 61.41 :Defects- 2177.76 :Months- 19.48 :Effort- 402.47} {:Effort- 616.99 :Kloc+ 88.1 :Defects- 2710.34 :Months- 10.01}
+sort with 93 evals {:Kloc+ 4.86 :Effort- 19.54 :Defects- 151.71 :Months- 8.4} {:Effort- 11.21 :Months- 2.06 :Kloc+ 2.75 :Defects- 85.99}
+
+-----------
+explain = {:data ['l']}
+all               {:Kloc+ 94.02 :Defects- 3761.76 :Months- 24.18 :Effort- 624.41} {:Effort- 1135.93 :Defects- 6145.06 :Kloc+ 133.6 :Months- 12.97}
+sway with 5 evals {:Months- 16.48 :Defects- 1193.8 :Kloc+ 38.28 :Effort- 183.84} {:Months- 4.61 :Effort- 136.12 :Defects- 836.78 :Kloc+ 26.83}
+xpln on 5 evals   {:Defects- 3120.78 :Effort- 370.16 :Kloc+ 78.62 :Months- 19.63} {:Defects- 8404.59 :Months- 15.27 :Kloc+ 170.96 :Effort- 821.24}
+sort with 93 evals {:Defects- 113.2 :Months- 7.66 :Kloc+ 3.62 :Effort- 13.92} {:Defects- 67.61 :Months- 1.99 :Effort- 6.87 :Kloc+ 2.16}
+
+-----------
+explain = {:rely ['h']}
+all               {:Kloc+ 94.02 :Defects- 3761.76 :Months- 24.18 :Effort- 624.41} {:Effort- 1135.93 :Defects- 6145.06 :Kloc+ 133.6 :Months- 12.97}
+sway with 5 evals {:Defects- 1794.71 :Effort- 417.29 :Kloc+ 41.93 :Months- 22.3} {:Kloc+ 50.95 :Months- 8.16 :Effort- 306.9 :Defects- 1909.36}
+xpln on 5 evals   {:Months- 22.25 :Kloc+ 75.81 :Effort- 483.55 :Defects- 3011.36} {:Kloc+ 92.29 :Effort- 621.87 :Defects- 3820.25 :Months- 10.93}
+sort with 93 evals {:Kloc+ 4.86 :Effort- 19.54 :Defects- 151.71 :Months- 8.4} {:Effort- 11.21 :Months- 2.06 :Kloc+ 2.75 :Defects- 85.99}
+
+-----------
+explain = {:sced ['l']}
+all               {:Kloc+ 94.02 :Defects- 3761.76 :Months- 24.18 :Effort- 624.41} {:Effort- 1135.93 :Defects- 6145.06 :Kloc+ 133.6 :Months- 12.97}
+sway with 5 evals {:Defects- 6476.14 :Months- 27.34 :Kloc+ 145.89 :Effort- 694.91} {:Months- 13.75 :Defects- 6547.05 :Effort- 815.15 :Kloc+ 131.01}
+xpln on 5 evals   {:Effort- 276.79 :Months- 18.69 :Kloc+ 66.26 :Defects- 2816.68} {:Kloc+ 79.34 :Effort- 347.06 :Months- 8.85 :Defects- 3638.11}
+sort with 93 evals {:Kloc+ 4.86 :Effort- 19.54 :Defects- 151.71 :Months- 8.4} {:Effort- 11.21 :Months- 2.06 :Kloc+ 2.75 :Defects- 85.99}
+
+-----------
+explain = {:cplx ['h']}
+all               {:Kloc+ 94.02 :Defects- 3761.76 :Months- 24.18 :Effort- 624.41} {:Effort- 1135.93 :Defects- 6145.06 :Kloc+ 133.6 :Months- 12.97}
+sway with 5 evals {:Effort- 458.97 :Defects- 3182.14 :Months- 21.33 :Kloc+ 81.21} {:Defects- 3347.44 :Kloc+ 91.18 :Effort- 541.55 :Months- 12.51}
+xpln on 5 evals   {:Effort- 315.24 :Defects- 2523.34 :Months- 20.48 :Kloc+ 67.34} {:Months- 9.51 :Effort- 464.99 :Defects- 2799.69 :Kloc+ 83.81}
+sort with 93 evals {:Kloc+ 4.86 :Effort- 19.54 :Defects- 151.71 :Months- 8.4} {:Effort- 11.21 :Months- 2.06 :Kloc+ 2.75 :Defects- 85.99}
+
+-----------
+explain = {:apex ['n']}
+all               {:Kloc+ 94.02 :Defects- 3761.76 :Months- 24.18 :Effort- 624.41} {:Effort- 1135.93 :Defects- 6145.06 :Kloc+ 133.6 :Months- 12.97}
+sway with 5 evals {:Kloc+ 91.0 :Effort- 881.14 :Defects- 3587.29 :Months- 29.06} {:Effort- 803.58 :Defects- 2883.65 :Months- 9.56 :Kloc+ 86.8}
+xpln on 5 evals   {:Kloc+ 61.41 :Defects- 2177.76 :Months- 19.48 :Effort- 402.47} {:Effort- 616.99 :Kloc+ 88.1 :Defects- 2710.34 :Months- 10.01}
+sort with 93 evals {:Kloc+ 4.86 :Effort- 19.54 :Defects- 151.71 :Months- 8.4} {:Effort- 11.21 :Months- 2.06 :Kloc+ 2.75 :Defects- 85.99}
+
+-----------
+explain = {:sced ['n']}
+all               {:Kloc+ 94.02 :Defects- 3761.76 :Months- 24.18 :Effort- 624.41} {:Effort- 1135.93 :Defects- 6145.06 :Kloc+ 133.6 :Months- 12.97}
+sway with 5 evals {:Months- 35.94 :Kloc+ 207.21 :Defects- 10024.86 :Effort- 1062.64} {:Effort- 1677.14 :Defects- 18348.13 :Months- 27.76 :Kloc+ 349.03}
+xpln on 5 evals   {:Effort- 824.73 :Months- 27.34 :Defects- 4306.39 :Kloc+ 110.02} {:Effort- 1366.22 :Kloc+ 154.98 :Months- 13.94 :Defects- 7179.26}
+sort with 93 evals {:Kloc+ 4.86 :Effort- 19.54 :Defects- 151.71 :Months- 8.4} {:Effort- 11.21 :Months- 2.06 :Kloc+ 2.75 :Defects- 85.99}
+
+-----------
+explain = {:data ['l']}
+all               {:Kloc+ 94.02 :Defects- 3761.76 :Months- 24.18 :Effort- 624.41} {:Effort- 1135.93 :Defects- 6145.06 :Kloc+ 133.6 :Months- 12.97}
+sway with 5 evals {:Kloc+ 27.02 :Effort- 96.8 :Defects- 784.5 :Months- 13.72} {:Kloc+ 37.62 :Months- 7.43 :Defects- 1065.53 :Effort- 132.28}
+xpln on 5 evals   {:Defects- 3120.78 :Effort- 370.16 :Kloc+ 78.62 :Months- 19.63} {:Defects- 8404.59 :Months- 15.27 :Kloc+ 170.96 :Effort- 821.24}
+sort with 93 evals {:Kloc+ 4.3 :Defects- 134.33 :Months- 8.07 :Effort- 16.8} {:Kloc+ 2.55 :Effort- 9.36 :Defects- 79.6 :Months- 2.04}
+
+-----------
+explain = {:rely ['h']}
+all               {:Kloc+ 94.02 :Defects- 3761.76 :Months- 24.18 :Effort- 624.41} {:Effort- 1135.93 :Defects- 6145.06 :Kloc+ 133.6 :Months- 12.97}
+sway with 5 evals {:Kloc+ 70.89 :Defects- 2590.0 :Effort- 499.0 :Months- 24.67} {:Kloc+ 97.85 :Defects- 2811.51 :Months- 10.12 :Effort- 493.95}
+xpln on 5 evals   {:Months- 22.25 :Kloc+ 75.81 :Effort- 483.55 :Defects- 3011.36} {:Kloc+ 92.29 :Effort- 621.87 :Defects- 3820.25 :Months- 10.93}
+sort with 93 evals {:Kloc+ 4.86 :Effort- 19.54 :Defects- 151.71 :Months- 8.4} {:Effort- 11.21 :Months- 2.06 :Kloc+ 2.75 :Defects- 85.99}
+
+-----------
+explain = {:apex ['n']}
+all               {:Kloc+ 94.02 :Defects- 3761.76 :Months- 24.18 :Effort- 624.41} {:Effort- 1135.93 :Defects- 6145.06 :Kloc+ 133.6 :Months- 12.97}
+sway with 5 evals {:Defects- 232.6 :Kloc+ 7.46 :Months- 9.9 :Effort- 28.0} {:Kloc+ 2.9 :Effort- 15.42 :Months- 1.43 :Defects- 90.37}
+xpln on 5 evals   {:Kloc+ 61.41 :Defects- 2177.76 :Months- 19.48 :Effort- 402.47} {:Effort- 616.99 :Kloc+ 88.1 :Defects- 2710.34 :Months- 10.01}
+sort with 93 evals {:Defects- 113.2 :Months- 7.66 :Kloc+ 3.62 :Effort- 13.92} {:Defects- 67.61 :Months- 1.99 :Effort- 6.87 :Kloc+ 2.16}
+
+-----------
+explain = {:rely ['h']}
+all               {:Kloc+ 94.02 :Defects- 3761.76 :Months- 24.18 :Effort- 624.41} {:Effort- 1135.93 :Defects- 6145.06 :Kloc+ 133.6 :Months- 12.97}
+sway with 5 evals {:Months- 31.11 :Kloc+ 141.74 :Defects- 5406.0 :Effort- 1015.29} {:Defects- 4385.1 :Effort- 920.21 :Months- 10.93 :Kloc+ 114.0}
+xpln on 5 evals   {:Months- 22.25 :Kloc+ 75.81 :Effort- 483.55 :Defects- 3011.36} {:Kloc+ 92.29 :Effort- 621.87 :Defects- 3820.25 :Months- 10.93}
+sort with 93 evals {:Kloc+ 4.86 :Effort- 19.54 :Defects- 151.71 :Months- 8.4} {:Effort- 11.21 :Months- 2.06 :Kloc+ 2.75 :Defects- 85.99}
+
+-----------
+explain = {:data ['l']}
+all               {:Kloc+ 94.02 :Defects- 3761.76 :Months- 24.18 :Effort- 624.41} {:Effort- 1135.93 :Defects- 6145.06 :Kloc+ 133.6 :Months- 12.97}
+sway with 5 evals {:Kloc+ 8.55 :Defects- 266.67 :Effort- 33.33 :Months- 10.32} {:Defects- 116.18 :Effort- 19.0 :Kloc+ 3.72 :Months- 1.64}
+xpln on 5 evals   {:Defects- 3120.78 :Effort- 370.16 :Kloc+ 78.62 :Months- 19.63} {:Defects- 8404.59 :Months- 15.27 :Kloc+ 170.96 :Effort- 821.24}
+sort with 93 evals {:Kloc+ 4.3 :Defects- 134.33 :Months- 8.07 :Effort- 16.8} {:Kloc+ 2.55 :Effort- 9.36 :Defects- 79.6 :Months- 2.04}
+
+-----------
+explain = {:apex ['h']}
+all               {:Kloc+ 94.02 :Defects- 3761.76 :Months- 24.18 :Effort- 624.41} {:Effort- 1135.93 :Defects- 6145.06 :Kloc+ 133.6 :Months- 12.97}
+sway with 5 evals {:Defects- 2077.29 :Effort- 234.86 :Months- 21.69 :Kloc+ 52.57} {:Kloc+ 26.14 :Months- 5.03 :Defects- 1168.65 :Effort- 134.0}
+xpln on 5 evals   {:Defects- 4359.02 :Months- 27.05 :Kloc+ 105.75 :Effort- 774.7} {:Kloc+ 103.43 :Effort- 1380.17 :Defects- 4251.45 :Months- 10.43}
+sort with 93 evals {:Kloc+ 4.86 :Effort- 19.54 :Defects- 151.71 :Months- 8.4} {:Effort- 11.21 :Months- 2.06 :Kloc+ 2.75 :Defects- 85.99}
+
+-----------
+explain = {:acap ['n']}
+all               {:Kloc+ 94.02 :Defects- 3761.76 :Months- 24.18 :Effort- 624.41} {:Effort- 1135.93 :Defects- 6145.06 :Kloc+ 133.6 :Months- 12.97}
+sway with 5 evals {:Kloc+ 18.38 :Defects- 662.83 :Effort- 87.6 :Months- 10.92} {:Effort- 174.91 :Months- 7.97 :Kloc+ 35.18 :Defects- 1315.45}
+xpln on 5 evals   {:Months- 17.32 :Defects- 1521.78 :Kloc+ 38.13 :Effort- 301.34} {:Months- 8.89 :Kloc+ 63.64 :Effort- 575.1 :Defects- 2468.91}
+sort with 93 evals {:Kloc+ 4.3 :Defects- 134.33 :Months- 8.07 :Effort- 16.8} {:Kloc+ 2.55 :Effort- 9.36 :Defects- 79.6 :Months- 2.04}
+
+-----------
+explain = {:pcap ['n']}
+all               {:Kloc+ 94.02 :Defects- 3761.76 :Months- 24.18 :Effort- 624.41} {:Effort- 1135.93 :Defects- 6145.06 :Kloc+ 133.6 :Months- 12.97}
+
+*** sway ***
+Kloc+: 70.52850000000001
+[94.99, 5.77, 21.98, 139.07, 73.26, 10.19, 38.28, 41.93, 145.89, 81.21, 91.0, 207.21, 27.02, 70.89, 7.46, 141.74, 8.55, 52.57, 18.38, 133.18]
+Effort-: 428.92600000000004
+[728.86, 22.4, 121.83, 569.14, 557.29, 48.0, 183.84, 417.29, 694.91, 458.97, 881.14, 1062.64, 96.8, 499.0, 28.0, 1015.29, 33.33, 234.86, 87.6, 837.33]
+Defects-: 2811.0915
+[3524.0, 180.0, 1130.67, 5524.43, 2702.43, 330.14, 1193.8, 1794.71, 6476.14, 3182.14, 3587.29, 10024.86, 784.5, 2590.0, 232.6, 5406.0, 266.67, 2077.29, 662.83, 4551.33]
+Months-: 20.864
+[27.8, 8.71, 16.58, 26.57, 23.73, 10.24, 16.48, 22.3, 27.34, 21.33, 29.06, 35.94, 13.72, 24.67, 9.9, 31.11, 10.32, 21.69, 10.92, 28.87]
+***
+sway with 5 evals {:Effort- 837.33 :Months- 28.87 :Defects- 4551.33 :Kloc+ 133.18} {:Months- 11.36 :Kloc+ 119.47 :Effort- 931.22 :Defects- 4098.76}
+
+*** xpln ***
+Kloc+: 72.852
+[111.74, 66.26, 45.86, 97.5, 50.33, 61.41, 78.62, 75.81, 66.26, 67.34, 61.41, 110.02, 78.62, 75.81, 61.41, 75.81, 78.62, 105.75, 38.13, 50.33]
+Effort-: 450.05100000000004
+[887.7, 276.79, 375.34, 502.45, 348.7, 402.47, 370.16, 483.55, 276.79, 315.24, 402.47, 824.73, 370.16, 483.55, 402.47, 483.55, 370.16, 774.7, 301.34, 348.7]
+Defects-: 2894.0485
+[4740.5, 2816.68, 2006.89, 3830.35, 2014.82, 2177.76, 3120.78, 3011.36, 2816.68, 2523.34, 2177.76, 4306.39, 3120.78, 3011.36, 2177.76, 3011.36, 3120.78, 4359.02, 1521.78, 2014.82]
+Months-: 21.408499999999997
+[30.11, 18.69, 20.43, 25.42, 19.28, 19.48, 19.63, 22.25, 18.69, 20.48, 19.48, 27.34, 19.63, 22.25, 19.48, 22.25, 19.63, 27.05, 17.32, 19.28]
+***
+xpln on 5 evals   {:Months- 19.28 :Defects- 2014.82 :Effort- 348.7 :Kloc+ 50.33} {:Kloc+ 73.91 :Months- 9.51 :Effort- 543.39 :Defects- 2770.34}
+
+*** top ***
+Kloc+: 4.595999999999999
+[4.86, 4.86, 4.3, 4.86, 4.86, 4.86, 3.62, 4.86, 4.86, 4.86, 4.86, 4.86, 4.3, 4.86, 3.62, 4.86, 4.3, 4.86, 4.3, 4.3]
+Effort-: 18.293
+[19.54, 19.54, 16.8, 19.54, 19.54, 19.54, 13.92, 19.54, 19.54, 19.54, 19.54, 19.54, 16.8, 19.54, 13.92, 19.54, 16.8, 19.54, 16.8, 16.8]
+Defects-: 143.51399999999998
+[151.71, 151.71, 134.33, 151.71, 151.71, 151.71, 113.2, 151.71, 151.71, 151.71, 151.71, 151.71, 134.33, 151.71, 113.2, 151.71, 134.33, 151.71, 134.33, 134.33]
+Months-: 8.243500000000001
+[8.4, 8.4, 8.07, 8.4, 8.4, 8.4, 7.66, 8.4, 8.4, 8.4, 8.4, 8.4, 8.07, 8.4, 7.66, 8.4, 8.07, 8.4, 8.07, 8.07]
+***
+sort with 93 evals {:Kloc+ 4.3 :Defects- 134.33 :Months- 8.07 :Effort- 16.8} {:Kloc+ 2.55 :Effort- 9.36 :Defects- 79.6 :Months- 2.04}
+

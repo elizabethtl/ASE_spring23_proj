@@ -1,0 +1,56 @@
+-------
+CityMPG+
+all to all        True 
+all to sway1      False
+all to sway2      False
+all to xpln1      False
+all to xpln2      False
+all to xpln1      True 
+all to xpln2      True 
+sway1 to sway2    True 
+sway1 to sway2    True 
+sway1 to xpln1    True 
+sway1 to xpln2    True 
+
+-------
+HighwayMPG+
+all to all        True 
+all to sway1      False
+all to sway2      False
+all to xpln1      False
+all to xpln2      False
+all to xpln1      True 
+all to xpln2      True 
+sway1 to sway2    True 
+sway1 to sway2    True 
+sway1 to xpln1    True 
+sway1 to xpln2    True 
+
+-------
+Weight-
+all to all        True 
+all to sway1      False
+all to sway2      False
+all to xpln1      False
+all to xpln2      False
+all to xpln1      True 
+all to xpln2      True 
+sway1 to sway2    True 
+sway1 to sway2    True 
+sway1 to xpln1    True 
+sway1 to xpln2    True 
+
+-------
+Class-
+all to all        True 
+all to sway1      False
+all to sway2      False
+all to xpln1      False
+all to xpln2      False
+all to xpln1      False
+all to xpln2      True 
+sway1 to sway2    False
+sway1 to sway2    True 
+sway1 to xpln1    True 
+sway1 to xpln2    True 
+

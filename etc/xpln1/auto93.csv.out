@@ -1,0 +1,168 @@
+/home/etlin/Documents/ncsu/spring2023_csc791_ase/ASE_spring23_proj/src/xpln1/../../data/auto93.csv
+-----------
+explain = {:Model [[80.0, 81.0]]}
+all               {:Lbs- 2970.42 :Mpg+ 23.84 :Acc+ 15.57} {:Mpg+ 8.34 :Acc+ 2.76 :Lbs- 846.84}
+sway with 6 evals {:Mpg+ 28.46 :Acc+ 16.34 :Lbs- 2515.38} {:Acc+ 2.65 :Mpg+ 3.76 :Lbs- 379.25}
+xpln on 6 evals   {:Mpg+ 33.1 :Lbs- 2436.66 :Acc+ 16.93} {:Acc+ 2.83 :Mpg+ 7.61 :Lbs- 432.24}
+sort with 398 evals {:Acc+ 19.81 :Mpg+ 40.77 :Lbs- 2005.08} {:Mpg+ 2.77 :Lbs- 176.83 :Acc+ 2.32}
+
+-----------
+explain = {:Clndrs [[-inf, 4.0]]}
+all               {:Lbs- 2970.42 :Mpg+ 23.84 :Acc+ 15.57} {:Mpg+ 8.34 :Acc+ 2.76 :Lbs- 846.84}
+sway with 6 evals {:Lbs- 2203.29 :Mpg+ 27.86 :Acc+ 16.27} {:Lbs- 368.07 :Acc+ 1.44 :Mpg+ 4.26}
+xpln on 6 evals   {:Mpg+ 20.0 :Acc+ 13.25 :Lbs- 2398.5} {:Lbs- 247.57 :Acc+ 0.5 :Mpg+ 0.0}
+sort with 398 evals {:Lbs- 1987.21 :Mpg+ 40.71 :Acc+ 19.6} {:Mpg+ 2.67 :Lbs- 182.57 :Acc+ 2.36}
+
+-----------
+explain = {:Clndrs [[3.0, 4.0]]}
+all               {:Lbs- 2970.42 :Mpg+ 23.84 :Acc+ 15.57} {:Mpg+ 8.34 :Acc+ 2.76 :Lbs- 846.84}
+sway with 6 evals {:Mpg+ 27.86 :Acc+ 17.96 :Lbs- 2087.29} {:Mpg+ 5.79 :Lbs- 233.05 :Acc+ 2.26}
+xpln on 6 evals   {:Mpg+ 20.0 :Acc+ 13.25 :Lbs- 2398.5} {:Lbs- 247.57 :Acc+ 0.5 :Mpg+ 0.0}
+sort with 398 evals {:Lbs- 1987.21 :Mpg+ 40.71 :Acc+ 19.6} {:Mpg+ 2.67 :Lbs- 182.57 :Acc+ 2.36}
+
+-----------
+explain = {:origin [3.0]}
+all               {:Lbs- 2970.42 :Mpg+ 23.84 :Acc+ 15.57} {:Mpg+ 8.34 :Acc+ 2.76 :Lbs- 846.84}
+sway with 6 evals {:Lbs- 2156.08 :Mpg+ 25.83 :Acc+ 16.83} {:Mpg+ 5.15 :Lbs- 331.89 :Acc+ 2.34}
+xpln on 6 evals   {:Mpg+ 30.13 :Acc+ 16.17 :Lbs- 2221.23} {:Mpg+ 7.07 :Acc+ 1.95 :Lbs- 320.5}
+sort with 398 evals {:Acc+ 19.94 :Lbs- 2003.42 :Mpg+ 40.83} {:Lbs- 184.59 :Mpg+ 2.89 :Acc+ 2.37}
+
+-----------
+explain = {:origin [3.0]}
+all               {:Lbs- 2970.42 :Mpg+ 23.84 :Acc+ 15.57} {:Mpg+ 8.34 :Acc+ 2.76 :Lbs- 846.84}
+sway with 6 evals {:Lbs- 1959.46 :Mpg+ 28.46 :Acc+ 17.37} {:Acc+ 2.19 :Mpg+ 5.55 :Lbs- 236.64}
+xpln on 6 evals   {:Mpg+ 30.13 :Acc+ 16.17 :Lbs- 2221.23} {:Mpg+ 7.07 :Acc+ 1.95 :Lbs- 320.5}
+sort with 398 evals {:Acc+ 19.81 :Mpg+ 40.77 :Lbs- 2005.08} {:Mpg+ 2.77 :Lbs- 176.83 :Acc+ 2.32}
+
+-----------
+explain = {:Volume [[90.0, 116.0]]}
+all               {:Lbs- 2970.42 :Mpg+ 23.84 :Acc+ 15.57} {:Mpg+ 8.34 :Acc+ 2.76 :Lbs- 846.84}
+sway with 6 evals {:Lbs- 2063.93 :Mpg+ 35.0 :Acc+ 17.34} {:Mpg+ 5.19 :Acc+ 2.6 :Lbs- 117.44}
+xpln on 6 evals   {:Acc+ 16.61 :Lbs- 2162.54 :Mpg+ 30.76} {:Mpg+ 5.39 :Lbs- 200.61 :Acc+ 2.42}
+sort with 398 evals {:Lbs- 1987.21 :Mpg+ 40.71 :Acc+ 19.6} {:Mpg+ 2.67 :Lbs- 182.57 :Acc+ 2.36}
+
+-----------
+explain = {:Volume [[-inf, 90.0]]}
+all               {:Lbs- 2970.42 :Mpg+ 23.84 :Acc+ 15.57} {:Mpg+ 8.34 :Acc+ 2.76 :Lbs- 846.84}
+sway with 6 evals {:Mpg+ 37.5 :Lbs- 2035.58 :Acc+ 17.68} {:Lbs- 123.34 :Mpg+ 6.22 :Acc+ 3.14}
+xpln on 6 evals   {:Lbs- 1984.69 :Acc+ 17.15 :Mpg+ 32.78} {:Lbs- 203.78 :Mpg+ 7.01 :Acc+ 2.31}
+sort with 398 evals {:Acc+ 19.94 :Lbs- 2003.42 :Mpg+ 40.83} {:Lbs- 184.59 :Mpg+ 2.89 :Acc+ 2.37}
+
+-----------
+explain = {:origin [2.0]}
+all               {:Lbs- 2970.42 :Mpg+ 23.84 :Acc+ 15.57} {:Mpg+ 8.34 :Acc+ 2.76 :Lbs- 846.84}
+sway with 6 evals {:Lbs- 2047.21 :Acc+ 15.66 :Mpg+ 29.29} {:Acc+ 2.27 :Mpg+ 2.67 :Lbs- 154.12}
+xpln on 6 evals   {:Acc+ 16.79 :Lbs- 2423.3 :Mpg+ 28.57} {:Acc+ 3.05 :Mpg+ 6.66 :Lbs- 490.04}
+sort with 398 evals {:Lbs- 1987.21 :Mpg+ 40.71 :Acc+ 19.6} {:Mpg+ 2.67 :Lbs- 182.57 :Acc+ 2.36}
+
+-----------
+explain = {:Volume [[-inf, 90.0]]}
+all               {:Lbs- 2970.42 :Mpg+ 23.84 :Acc+ 15.57} {:Mpg+ 8.34 :Acc+ 2.76 :Lbs- 846.84}
+sway with 6 evals {:Mpg+ 37.86 :Acc+ 17.99 :Lbs- 2004.07} {:Lbs- 134.67 :Mpg+ 5.79 :Acc+ 2.84}
+xpln on 6 evals   {:Lbs- 1984.69 :Acc+ 17.15 :Mpg+ 32.78} {:Lbs- 203.78 :Mpg+ 7.01 :Acc+ 2.31}
+sort with 398 evals {:Lbs- 1987.21 :Mpg+ 40.71 :Acc+ 19.6} {:Mpg+ 2.67 :Lbs- 182.57 :Acc+ 2.36}
+
+-----------
+explain = {:Clndrs [[-inf, 4.0]]}
+all               {:Lbs- 2970.42 :Mpg+ 23.84 :Acc+ 15.57} {:Mpg+ 8.34 :Acc+ 2.76 :Lbs- 846.84}
+sway with 6 evals {:Mpg+ 28.33 :Acc+ 17.0 :Lbs- 2021.08} {:Mpg+ 3.89 :Acc+ 2.8 :Lbs- 312.94}
+xpln on 6 evals   {:Mpg+ 20.0 :Acc+ 13.25 :Lbs- 2398.5} {:Lbs- 247.57 :Acc+ 0.5 :Mpg+ 0.0}
+sort with 398 evals {:Acc+ 19.94 :Lbs- 2003.42 :Mpg+ 40.83} {:Lbs- 184.59 :Mpg+ 2.89 :Acc+ 2.37}
+
+-----------
+explain = {:origin [2.0]}
+all               {:Lbs- 2970.42 :Mpg+ 23.84 :Acc+ 15.57} {:Mpg+ 8.34 :Acc+ 2.76 :Lbs- 846.84}
+sway with 6 evals {:Lbs- 2009.31 :Acc+ 16.25 :Mpg+ 32.31} {:Mpg+ 4.39 :Acc+ 2.85 :Lbs- 173.95}
+xpln on 6 evals   {:Acc+ 16.79 :Lbs- 2423.3 :Mpg+ 28.57} {:Acc+ 3.05 :Mpg+ 6.66 :Lbs- 490.04}
+sort with 398 evals {:Acc+ 19.81 :Mpg+ 40.77 :Lbs- 2005.08} {:Mpg+ 2.77 :Lbs- 176.83 :Acc+ 2.32}
+
+-----------
+explain = {:origin [2.0]}
+all               {:Lbs- 2970.42 :Mpg+ 23.84 :Acc+ 15.57} {:Mpg+ 8.34 :Acc+ 2.76 :Lbs- 846.84}
+sway with 6 evals {:Mpg+ 25.0 :Lbs- 2422.43 :Acc+ 16.32} {:Mpg+ 5.19 :Lbs- 356.93 :Acc+ 2.46}
+xpln on 6 evals   {:Acc+ 16.79 :Lbs- 2423.3 :Mpg+ 28.57} {:Acc+ 3.05 :Mpg+ 6.66 :Lbs- 490.04}
+sort with 398 evals {:Lbs- 1987.21 :Mpg+ 40.71 :Acc+ 19.6} {:Mpg+ 2.67 :Lbs- 182.57 :Acc+ 2.36}
+
+-----------
+explain = {:Clndrs [[3.0, 4.0]]}
+all               {:Lbs- 2970.42 :Mpg+ 23.84 :Acc+ 15.57} {:Mpg+ 8.34 :Acc+ 2.76 :Lbs- 846.84}
+sway with 6 evals {:Lbs- 2085.67 :Acc+ 18.09 :Mpg+ 32.5} {:Mpg+ 6.22 :Acc+ 3.64 :Lbs- 175.23}
+xpln on 6 evals   {:Mpg+ 20.0 :Acc+ 13.25 :Lbs- 2398.5} {:Lbs- 247.57 :Acc+ 0.5 :Mpg+ 0.0}
+sort with 398 evals {:Acc+ 19.94 :Lbs- 2003.42 :Mpg+ 40.83} {:Lbs- 184.59 :Mpg+ 2.89 :Acc+ 2.37}
+
+-----------
+explain = {:Model [[81.0, inf]]}
+all               {:Lbs- 2970.42 :Mpg+ 23.84 :Acc+ 15.57} {:Mpg+ 8.34 :Acc+ 2.76 :Lbs- 846.84}
+sway with 6 evals {:Lbs- 2610.0 :Acc+ 16.66 :Mpg+ 30.0} {:Acc+ 2.75 :Lbs- 229.11 :Mpg+ 4.47}
+xpln on 6 evals   {:Lbs- 2487.08 :Acc+ 16.48 :Mpg+ 31.33} {:Lbs- 447.4 :Acc+ 2.33 :Mpg+ 6.23}
+sort with 398 evals {:Mpg+ 40.91 :Acc+ 20.18 :Lbs- 2018.73} {:Lbs- 185.43 :Mpg+ 3.02 :Acc+ 2.33}
+
+-----------
+explain = {:origin [3.0]}
+all               {:Lbs- 2970.42 :Mpg+ 23.84 :Acc+ 15.57} {:Mpg+ 8.34 :Acc+ 2.76 :Lbs- 846.84}
+sway with 6 evals {:Lbs- 2070.93 :Mpg+ 27.14 :Acc+ 17.11} {:Acc+ 2.19 :Mpg+ 6.11 :Lbs- 270.66}
+xpln on 6 evals   {:Mpg+ 30.13 :Acc+ 16.17 :Lbs- 2221.23} {:Mpg+ 7.07 :Acc+ 1.95 :Lbs- 320.5}
+sort with 398 evals {:Lbs- 1987.21 :Mpg+ 40.71 :Acc+ 19.6} {:Mpg+ 2.67 :Lbs- 182.57 :Acc+ 2.36}
+
+-----------
+explain = {:Clndrs [[3.0, 4.0]]}
+all               {:Lbs- 2970.42 :Mpg+ 23.84 :Acc+ 15.57} {:Mpg+ 8.34 :Acc+ 2.76 :Lbs- 846.84}
+sway with 6 evals {:Lbs- 2696.14 :Mpg+ 25.0 :Acc+ 15.95} {:Mpg+ 5.19 :Lbs- 125.75 :Acc+ 1.55}
+xpln on 6 evals   {:Mpg+ 20.0 :Acc+ 13.25 :Lbs- 2398.5} {:Lbs- 247.57 :Acc+ 0.5 :Mpg+ 0.0}
+sort with 398 evals {:Lbs- 1987.21 :Mpg+ 40.71 :Acc+ 19.6} {:Mpg+ 2.67 :Lbs- 182.57 :Acc+ 2.36}
+
+-----------
+explain = {:Clndrs [[3.0, 4.0]]}
+all               {:Lbs- 2970.42 :Mpg+ 23.84 :Acc+ 15.57} {:Mpg+ 8.34 :Acc+ 2.76 :Lbs- 846.84}
+sway with 6 evals {:Acc+ 16.22 :Lbs- 2154.71 :Mpg+ 31.43} {:Mpg+ 5.35 :Lbs- 293.59 :Acc+ 2.54}
+xpln on 6 evals   {:Mpg+ 20.0 :Acc+ 13.25 :Lbs- 2398.5} {:Lbs- 247.57 :Acc+ 0.5 :Mpg+ 0.0}
+sort with 398 evals {:Lbs- 1987.21 :Mpg+ 40.71 :Acc+ 19.6} {:Mpg+ 2.67 :Lbs- 182.57 :Acc+ 2.36}
+
+-----------
+explain = {:origin [3.0]}
+all               {:Lbs- 2970.42 :Mpg+ 23.84 :Acc+ 15.57} {:Mpg+ 8.34 :Acc+ 2.76 :Lbs- 846.84}
+sway with 6 evals {:Acc+ 16.6 :Mpg+ 32.73 :Lbs- 2197.73} {:Mpg+ 6.47 :Lbs- 277.79 :Acc+ 2.12}
+xpln on 6 evals   {:Mpg+ 30.13 :Acc+ 16.17 :Lbs- 2221.23} {:Mpg+ 7.07 :Acc+ 1.95 :Lbs- 320.5}
+sort with 398 evals {:Mpg+ 40.91 :Acc+ 20.18 :Lbs- 2018.73} {:Lbs- 185.43 :Mpg+ 3.02 :Acc+ 2.33}
+
+-----------
+explain = {:origin [1.0]}
+all               {:Lbs- 2970.42 :Mpg+ 23.84 :Acc+ 15.57} {:Mpg+ 8.34 :Acc+ 2.76 :Lbs- 846.84}
+sway with 6 evals {:Acc+ 16.81 :Lbs- 2526.92 :Mpg+ 22.31} {:Mpg+ 4.39 :Acc+ 1.64 :Lbs- 283.16}
+xpln on 6 evals   {:Lbs- 3361.93 :Acc+ 15.03 :Mpg+ 20.52} {:Acc+ 2.75 :Lbs- 794.79 :Mpg+ 7.3}
+sort with 398 evals {:Acc+ 19.81 :Mpg+ 40.77 :Lbs- 2005.08} {:Mpg+ 2.77 :Lbs- 176.83 :Acc+ 2.32}
+
+-----------
+explain = {:origin [1.0]}
+all               {:Lbs- 2970.42 :Mpg+ 23.84 :Acc+ 15.57} {:Mpg+ 8.34 :Acc+ 2.76 :Lbs- 846.84}
+
+*** sway ***
+Lbs-: 2240.9450000000006
+[2515.38, 2203.29, 2087.29, 2156.08, 1959.46, 2063.93, 2035.58, 2047.21, 2004.07, 2021.08, 2009.31, 2422.43, 2085.67, 2610.0, 2070.93, 2696.14, 2154.71, 2197.73, 2526.92, 2951.69]
+Acc+: 16.804
+[16.34, 16.27, 17.96, 16.83, 17.37, 17.34, 17.68, 15.66, 17.99, 17.0, 16.25, 16.32, 18.09, 16.66, 17.11, 15.95, 16.22, 16.6, 16.81, 15.63]
+Mpg+: 29.512499999999996
+[28.46, 27.86, 27.86, 25.83, 28.46, 35.0, 37.5, 29.29, 37.86, 28.33, 32.31, 25.0, 32.5, 30.0, 27.14, 25.0, 31.43, 32.73, 22.31, 25.38]
+***
+sway with 6 evals {:Lbs- 2951.69 :Mpg+ 25.38 :Acc+ 15.63} {:Mpg+ 6.6 :Acc+ 2.21 :Lbs- 309.11}
+
+*** xpln ***
+Lbs-: 2416.2670000000003
+[2436.66, 2398.5, 2398.5, 2221.23, 2221.23, 2162.54, 1984.69, 2423.3, 1984.69, 2398.5, 2423.3, 2423.3, 2398.5, 2487.08, 2221.23, 2398.5, 2398.5, 2221.23, 3361.93, 3361.93]
+Acc+: 15.446499999999997
+[16.93, 13.25, 13.25, 16.17, 16.17, 16.61, 17.15, 16.79, 17.15, 13.25, 16.79, 16.79, 13.25, 16.48, 16.17, 13.25, 13.25, 16.17, 15.03, 15.03]
+Mpg+: 26.401
+[33.1, 20.0, 20.0, 30.13, 30.13, 30.76, 32.78, 28.57, 32.78, 20.0, 28.57, 28.57, 20.0, 31.33, 30.13, 20.0, 20.0, 30.13, 20.52, 20.52]
+***
+xpln on 6 evals   {:Lbs- 3361.93 :Acc+ 15.03 :Mpg+ 20.52} {:Acc+ 2.75 :Lbs- 794.79 :Mpg+ 7.3}
+
+*** top ***
+Lbs-: 1998.0715000000005
+[2005.08, 1987.21, 1987.21, 2003.42, 2005.08, 1987.21, 2003.42, 1987.21, 1987.21, 2003.42, 2005.08, 1987.21, 2003.42, 2018.73, 1987.21, 1987.21, 1987.21, 2018.73, 2005.08, 2005.08]
+Acc+: 19.778500000000005
+[19.81, 19.6, 19.6, 19.94, 19.81, 19.6, 19.94, 19.6, 19.6, 19.94, 19.81, 19.6, 19.94, 20.18, 19.6, 19.6, 19.6, 20.18, 19.81, 19.81]
+Mpg+: 40.76899999999999
+[40.77, 40.71, 40.71, 40.83, 40.77, 40.71, 40.83, 40.71, 40.71, 40.83, 40.77, 40.71, 40.83, 40.91, 40.71, 40.71, 40.71, 40.91, 40.77, 40.77]
+***
+sort with 398 evals {:Acc+ 19.81 :Mpg+ 40.77 :Lbs- 2005.08} {:Mpg+ 2.77 :Lbs- 176.83 :Acc+ 2.32}
+

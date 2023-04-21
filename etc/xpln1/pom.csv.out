@@ -1,0 +1,139 @@
+/home/etlin/Documents/ncsu/spring2023_csc791_ase/ASE_spring23_proj/src/xpln1/../../data/pom.csv
+-----------
+explain = {:Size [[0.0, inf]]}
+all               {:Cost- 369.99 :Idle- 0.24 :Completion+ 0.87} {:Idle- 0.2 :Completion+ 0.13 :Cost- 204.4}
+sway with 8 evals {:Cost- 239.93 :Idle- 0.21 :Completion+ 0.85} {:Completion+ 0.15 :Cost- 74.65 :Idle- 0.19}
+xpln on 8 evals   {:Cost- 369.99 :Idle- 0.24 :Completion+ 0.87} {:Idle- 0.2 :Completion+ 0.13 :Cost- 204.4}
+
+-----------
+explain = {:Size [[0.0, inf]]}
+all               {:Cost- 369.99 :Idle- 0.24 :Completion+ 0.87} {:Idle- 0.2 :Completion+ 0.13 :Cost- 204.4}
+sway with 8 evals {:Idle- 0.24 :Cost- 200.5 :Completion+ 0.87} {:Completion+ 0.12 :Cost- 53.55 :Idle- 0.19}
+xpln on 8 evals   {:Cost- 369.99 :Idle- 0.24 :Completion+ 0.87} {:Idle- 0.2 :Completion+ 0.13 :Cost- 204.4}
+
+-----------
+explain = {:Size [[0.0, inf]]}
+all               {:Cost- 369.99 :Idle- 0.24 :Completion+ 0.87} {:Idle- 0.2 :Completion+ 0.13 :Cost- 204.4}
+sway with 8 evals {:Idle- 0.23 :Completion+ 0.9 :Cost- 259.84} {:Cost- 104.91 :Idle- 0.18 :Completion+ 0.09}
+xpln on 8 evals   {:Cost- 369.99 :Idle- 0.24 :Completion+ 0.87} {:Idle- 0.2 :Completion+ 0.13 :Cost- 204.4}
+
+-----------
+explain = {:Size [[0.0, inf]]}
+all               {:Cost- 369.99 :Idle- 0.24 :Completion+ 0.87} {:Idle- 0.2 :Completion+ 0.13 :Cost- 204.4}
+sway with 8 evals {:Idle- 0.16 :Cost- 218.51 :Completion+ 0.83} {:Idle- 0.17 :Cost- 86.95 :Completion+ 0.17}
+xpln on 8 evals   {:Cost- 369.99 :Idle- 0.24 :Completion+ 0.87} {:Idle- 0.2 :Completion+ 0.13 :Cost- 204.4}
+
+-----------
+explain = {:Size [[-inf, 0.0]]}
+all               {:Cost- 369.99 :Idle- 0.24 :Completion+ 0.87} {:Idle- 0.2 :Completion+ 0.13 :Cost- 204.4}
+sway with 8 evals {:Cost- 236.49 :Completion+ 0.87 :Idle- 0.28} {:Idle- 0.21 :Cost- 80.89 :Completion+ 0.14}
+xpln on 8 evals   {:Completion+ 0.0 :Cost- 0.0 :Idle- 0.0} {:Completion+ 0.0 :Cost- 0.0 :Idle- 0.0}
+
+-----------
+explain = {:Size [[0.0, inf]]}
+all               {:Cost- 369.99 :Idle- 0.24 :Completion+ 0.87} {:Idle- 0.2 :Completion+ 0.13 :Cost- 204.4}
+sway with 8 evals {:Idle- 0.23 :Completion+ 0.86 :Cost- 278.65} {:Cost- 127.12 :Idle- 0.19 :Completion+ 0.14}
+xpln on 8 evals   {:Cost- 369.99 :Idle- 0.24 :Completion+ 0.87} {:Idle- 0.2 :Completion+ 0.13 :Cost- 204.4}
+
+-----------
+explain = {:Size [[-inf, 0.0]]}
+all               {:Cost- 369.99 :Idle- 0.24 :Completion+ 0.87} {:Idle- 0.2 :Completion+ 0.13 :Cost- 204.4}
+sway with 8 evals {:Idle- 0.23 :Completion+ 0.88 :Cost- 333.79} {:Idle- 0.2 :Cost- 111.1 :Completion+ 0.09}
+xpln on 8 evals   {:Completion+ 0.0 :Cost- 0.0 :Idle- 0.0} {:Completion+ 0.0 :Cost- 0.0 :Idle- 0.0}
+
+-----------
+explain = {:Plan [[-inf, 0.0]]}
+all               {:Cost- 369.99 :Idle- 0.24 :Completion+ 0.87} {:Idle- 0.2 :Completion+ 0.13 :Cost- 204.4}
+sway with 8 evals {:Idle- 0.17 :Cost- 298.7 :Completion+ 0.85} {:Idle- 0.17 :Cost- 100.82 :Completion+ 0.14}
+xpln on 8 evals   {:Completion+ 0.0 :Cost- 0.0 :Idle- 0.0} {:Completion+ 0.0 :Cost- 0.0 :Idle- 0.0}
+
+-----------
+explain = {:Size [[-inf, 0.0]]}
+all               {:Cost- 369.99 :Idle- 0.24 :Completion+ 0.87} {:Idle- 0.2 :Completion+ 0.13 :Cost- 204.4}
+sway with 8 evals {:Idle- 0.23 :Completion+ 0.84 :Cost- 350.33} {:Completion+ 0.16 :Idle- 0.22 :Cost- 101.11}
+xpln on 8 evals   {:Completion+ 0.0 :Cost- 0.0 :Idle- 0.0} {:Completion+ 0.0 :Cost- 0.0 :Idle- 0.0}
+
+-----------
+explain = {:Plan [[-inf, 0.0]]}
+all               {:Cost- 369.99 :Idle- 0.24 :Completion+ 0.87} {:Idle- 0.2 :Completion+ 0.13 :Cost- 204.4}
+sway with 8 evals {:Idle- 0.19 :Cost- 254.71 :Completion+ 0.83} {:Idle- 0.2 :Completion+ 0.16 :Cost- 119.84}
+xpln on 8 evals   {:Completion+ 0.0 :Cost- 0.0 :Idle- 0.0} {:Completion+ 0.0 :Cost- 0.0 :Idle- 0.0}
+
+-----------
+explain = {:Size [[0.0, inf]]}
+all               {:Cost- 369.99 :Idle- 0.24 :Completion+ 0.87} {:Idle- 0.2 :Completion+ 0.13 :Cost- 204.4}
+sway with 8 evals {:Cost- 346.6 :Idle- 0.23 :Completion+ 0.86} {:Completion+ 0.11 :Idle- 0.18 :Cost- 159.97}
+xpln on 8 evals   {:Cost- 369.99 :Idle- 0.24 :Completion+ 0.87} {:Idle- 0.2 :Completion+ 0.13 :Cost- 204.4}
+
+-----------
+explain = {:Size [[0.0, inf]]}
+all               {:Cost- 369.99 :Idle- 0.24 :Completion+ 0.87} {:Idle- 0.2 :Completion+ 0.13 :Cost- 204.4}
+sway with 8 evals {:Idle- 0.17 :Completion+ 0.84 :Cost- 205.26} {:Idle- 0.16 :Cost- 83.81 :Completion+ 0.14}
+xpln on 8 evals   {:Cost- 369.99 :Idle- 0.24 :Completion+ 0.87} {:Idle- 0.2 :Completion+ 0.13 :Cost- 204.4}
+
+-----------
+explain = {:Size [[-inf, 0.0]]}
+all               {:Cost- 369.99 :Idle- 0.24 :Completion+ 0.87} {:Idle- 0.2 :Completion+ 0.13 :Cost- 204.4}
+sway with 8 evals {:Cost- 167.77 :Idle- 0.23 :Completion+ 0.85} {:Completion+ 0.15 :Idle- 0.22 :Cost- 70.3}
+xpln on 8 evals   {:Completion+ 0.0 :Cost- 0.0 :Idle- 0.0} {:Completion+ 0.0 :Cost- 0.0 :Idle- 0.0}
+
+-----------
+explain = {:Size [[-inf, 0.0]]}
+all               {:Cost- 369.99 :Idle- 0.24 :Completion+ 0.87} {:Idle- 0.2 :Completion+ 0.13 :Cost- 204.4}
+sway with 8 evals {:Completion+ 0.89 :Idle- 0.27 :Cost- 167.56} {:Cost- 65.82 :Completion+ 0.12 :Idle- 0.23}
+xpln on 8 evals   {:Completion+ 0.0 :Cost- 0.0 :Idle- 0.0} {:Completion+ 0.0 :Cost- 0.0 :Idle- 0.0}
+
+-----------
+explain = {:Size [[0.0, inf]]}
+all               {:Cost- 369.99 :Idle- 0.24 :Completion+ 0.87} {:Idle- 0.2 :Completion+ 0.13 :Cost- 204.4}
+sway with 8 evals {:Completion+ 0.88 :Idle- 0.22 :Cost- 241.43} {:Idle- 0.17 :Completion+ 0.11 :Cost- 79.87}
+xpln on 8 evals   {:Cost- 369.99 :Idle- 0.24 :Completion+ 0.87} {:Idle- 0.2 :Completion+ 0.13 :Cost- 204.4}
+
+-----------
+explain = {:Size [[-inf, 0.0]]}
+all               {:Cost- 369.99 :Idle- 0.24 :Completion+ 0.87} {:Idle- 0.2 :Completion+ 0.13 :Cost- 204.4}
+sway with 8 evals {:Cost- 212.0 :Completion+ 0.9 :Idle- 0.28} {:Cost- 107.14 :Idle- 0.19 :Completion+ 0.08}
+xpln on 8 evals   {:Completion+ 0.0 :Cost- 0.0 :Idle- 0.0} {:Completion+ 0.0 :Cost- 0.0 :Idle- 0.0}
+
+-----------
+explain = {:Size [[-inf, 0.0]]}
+all               {:Cost- 369.99 :Idle- 0.24 :Completion+ 0.87} {:Idle- 0.2 :Completion+ 0.13 :Cost- 204.4}
+sway with 8 evals {:Completion+ 0.89 :Idle- 0.26 :Cost- 214.66} {:Idle- 0.2 :Cost- 82.89 :Completion+ 0.1}
+xpln on 8 evals   {:Completion+ 0.0 :Cost- 0.0 :Idle- 0.0} {:Completion+ 0.0 :Cost- 0.0 :Idle- 0.0}
+
+-----------
+explain = {:Size [[0.0, inf]]}
+all               {:Cost- 369.99 :Idle- 0.24 :Completion+ 0.87} {:Idle- 0.2 :Completion+ 0.13 :Cost- 204.4}
+sway with 8 evals {:Idle- 0.24 :Completion+ 0.86 :Cost- 293.14} {:Cost- 114.16 :Idle- 0.19 :Completion+ 0.14}
+xpln on 8 evals   {:Cost- 369.99 :Idle- 0.24 :Completion+ 0.87} {:Idle- 0.2 :Completion+ 0.13 :Cost- 204.4}
+
+-----------
+explain = {:Size [[-inf, 0.0]]}
+all               {:Cost- 369.99 :Idle- 0.24 :Completion+ 0.87} {:Idle- 0.2 :Completion+ 0.13 :Cost- 204.4}
+sway with 8 evals {:Idle- 0.2 :Cost- 330.84 :Completion+ 0.83} {:Completion+ 0.2 :Idle- 0.21 :Cost- 154.53}
+xpln on 8 evals   {:Completion+ 0.0 :Cost- 0.0 :Idle- 0.0} {:Completion+ 0.0 :Cost- 0.0 :Idle- 0.0}
+
+-----------
+explain = {:Size [[0.0, inf]]}
+all               {:Cost- 369.99 :Idle- 0.24 :Completion+ 0.87} {:Idle- 0.2 :Completion+ 0.13 :Cost- 204.4}
+
+*** sway ***
+Cost-: 265.54
+[239.93, 200.5, 259.84, 218.51, 236.49, 278.65, 333.79, 298.7, 350.33, 254.71, 346.6, 205.26, 167.77, 167.56, 241.43, 212.0, 214.66, 293.14, 330.84, 460.09]
+Completion+: 0.8615
+[0.85, 0.87, 0.9, 0.83, 0.87, 0.86, 0.88, 0.85, 0.84, 0.83, 0.86, 0.84, 0.85, 0.89, 0.88, 0.9, 0.89, 0.86, 0.83, 0.85]
+Idle-: 0.22500000000000003
+[0.21, 0.24, 0.23, 0.16, 0.28, 0.23, 0.23, 0.17, 0.23, 0.19, 0.23, 0.17, 0.23, 0.27, 0.22, 0.28, 0.26, 0.24, 0.2, 0.23]
+***
+sway with 8 evals {:Idle- 0.23 :Cost- 460.09 :Completion+ 0.85} {:Idle- 0.2 :Completion+ 0.15 :Cost- 153.36}
+
+*** xpln ***
+Cost-: 184.99499999999998
+[369.99, 369.99, 369.99, 369.99, 0.0, 369.99, 0.0, 0.0, 0.0, 0.0, 369.99, 369.99, 0.0, 0.0, 369.99, 0.0, 0.0, 369.99, 0.0, 369.99]
+Completion+: 0.43499999999999994
+[0.87, 0.87, 0.87, 0.87, 0.0, 0.87, 0.0, 0.0, 0.0, 0.0, 0.87, 0.87, 0.0, 0.0, 0.87, 0.0, 0.0, 0.87, 0.0, 0.87]
+Idle-: 0.12000000000000002
+[0.24, 0.24, 0.24, 0.24, 0.0, 0.24, 0.0, 0.0, 0.0, 0.0, 0.24, 0.24, 0.0, 0.0, 0.24, 0.0, 0.0, 0.24, 0.0, 0.24]
+***
+xpln on 8 evals   {:Cost- 369.99 :Idle- 0.24 :Completion+ 0.87} {:Idle- 0.2 :Completion+ 0.13 :Cost- 204.4}
+

@@ -1,0 +1,139 @@
+/home/etlin/Documents/ncsu/spring2023_csc791_ase/ASE_spring23_proj/src/xpln1/../../data/coc10000.csv
+-----------
+explain = {: Pvol [[3.0, 4.0]]}
+all               {: Effort- 30506.37 : Risk- 6.59 :Loc+ 1009.04} {: Risk- 6.04 :Loc+ 574.75 : Effort- 35435.43}
+sway with 8 evals {: Risk- 4.94 : Effort- 32079.22 :Loc+ 1066.35} {: Risk- 4.67 :Loc+ 589.3 : Effort- 38511.89}
+xpln on 8 evals   {:Loc+ 1006.51 : Risk- 6.37 : Effort- 28087.54} {: Risk- 5.93 :Loc+ 572.2 : Effort- 31388.75}
+
+-----------
+explain = {: Data [[-inf, 2.0]]}
+all               {: Effort- 30506.37 : Risk- 6.59 :Loc+ 1009.04} {: Risk- 6.04 :Loc+ 574.75 : Effort- 35435.43}
+sway with 8 evals {: Risk- 3.76 : Effort- 16202.58 :Loc+ 889.53} {:Loc+ 556.79 : Effort- 18906.6 : Risk- 4.7}
+xpln on 8 evals   {:Loc+ 0.0 : Effort- 0.0 : Risk- 0.0} {:Loc+ 0.0 : Effort- 0.0 : Risk- 0.0}
+
+-----------
+explain = {: Time [[-inf, 3.0]]}
+all               {: Effort- 30506.37 : Risk- 6.59 :Loc+ 1009.04} {: Risk- 6.04 :Loc+ 574.75 : Effort- 35435.43}
+sway with 8 evals {: Effort- 44357.46 : Risk- 9.29 :Loc+ 996.55} {: Risk- 6.83 :Loc+ 577.14 : Effort- 44746.01}
+xpln on 8 evals   {:Loc+ 0.0 : Effort- 0.0 : Risk- 0.0} {:Loc+ 0.0 : Effort- 0.0 : Risk- 0.0}
+
+-----------
+explain = {: Sced [[1.0, 2.0]]}
+all               {: Effort- 30506.37 : Risk- 6.59 :Loc+ 1009.04} {: Risk- 6.04 :Loc+ 574.75 : Effort- 35435.43}
+sway with 8 evals {: Effort- 24171.38 :Loc+ 1079.14 : Risk- 6.22} {:Loc+ 537.02 : Effort- 18863.0 : Risk- 5.17}
+xpln on 8 evals   {: Risk- 13.78 :Loc+ 1031.64 : Effort- 37207.69} {: Risk- 6.68 : Effort- 43575.01 :Loc+ 583.91}
+
+-----------
+explain = {: Time [[4.0, 5.0]]}
+all               {: Effort- 30506.37 : Risk- 6.59 :Loc+ 1009.04} {: Risk- 6.04 :Loc+ 574.75 : Effort- 35435.43}
+sway with 8 evals {: Effort- 38488.32 :Loc+ 1051.03 : Risk- 5.0} {: Effort- 34773.4 :Loc+ 562.6 : Risk- 4.9}
+xpln on 8 evals   {: Risk- 5.69 : Effort- 28872.45 :Loc+ 1013.82} {:Loc+ 574.24 : Risk- 5.52 : Effort- 32720.2}
+
+-----------
+explain = {: Aexp [[4.0, inf]]}
+all               {: Effort- 30506.37 : Risk- 6.59 :Loc+ 1009.04} {: Risk- 6.04 :Loc+ 574.75 : Effort- 35435.43}
+sway with 8 evals {:Loc+ 1095.85 : Risk- 8.2 : Effort- 29314.63} {: Effort- 32503.73 :Loc+ 613.05 : Risk- 7.16}
+xpln on 8 evals   {:Loc+ 1008.85 : Risk- 5.89 : Effort- 24844.62} {:Loc+ 570.44 : Risk- 5.62 : Effort- 27791.49}
+
+-----------
+explain = {: Pcon [[-inf, 1.0]]}
+all               {: Effort- 30506.37 : Risk- 6.59 :Loc+ 1009.04} {: Risk- 6.04 :Loc+ 574.75 : Effort- 35435.43}
+sway with 8 evals {:Loc+ 998.01 : Effort- 20465.41 : Risk- 2.75} {:Loc+ 550.13 : Effort- 21331.87 : Risk- 3.62}
+xpln on 8 evals   {:Loc+ 0.0 : Effort- 0.0 : Risk- 0.0} {:Loc+ 0.0 : Effort- 0.0 : Risk- 0.0}
+
+-----------
+explain = {: Prec [[-inf, 1.0]]}
+all               {: Effort- 30506.37 : Risk- 6.59 :Loc+ 1009.04} {: Risk- 6.04 :Loc+ 574.75 : Effort- 35435.43}
+sway with 8 evals {:Loc+ 1088.95 : Risk- 5.38 : Effort- 62396.01} {: Risk- 5.86 :Loc+ 532.73 : Effort- 61489.26}
+xpln on 8 evals   {:Loc+ 0.0 : Effort- 0.0 : Risk- 0.0} {:Loc+ 0.0 : Effort- 0.0 : Risk- 0.0}
+
+-----------
+explain = {: Docu [[4.0, inf]]}
+all               {: Effort- 30506.37 : Risk- 6.59 :Loc+ 1009.04} {: Risk- 6.04 :Loc+ 574.75 : Effort- 35435.43}
+sway with 8 evals {: Risk- 3.1 :Loc+ 988.09 : Effort- 19792.79} {:Loc+ 570.84 : Effort- 20041.18 : Risk- 4.49}
+xpln on 8 evals   {: Effort- 36717.88 : Risk- 6.63 :Loc+ 1004.12} {: Risk- 5.98 : Effort- 41886.63 :Loc+ 571.27}
+
+-----------
+explain = {: Aexp [[4.0, inf]]}
+all               {: Effort- 30506.37 : Risk- 6.59 :Loc+ 1009.04} {: Risk- 6.04 :Loc+ 574.75 : Effort- 35435.43}
+sway with 8 evals {: Risk- 3.11 : Effort- 19959.58 :Loc+ 964.32} {: Risk- 3.37 :Loc+ 581.61 : Effort- 19068.09}
+xpln on 8 evals   {:Loc+ 1008.85 : Risk- 5.89 : Effort- 24844.62} {:Loc+ 570.44 : Risk- 5.62 : Effort- 27791.49}
+
+-----------
+explain = {: Pcap [[4.0, inf]]}
+all               {: Effort- 30506.37 : Risk- 6.59 :Loc+ 1009.04} {: Risk- 6.04 :Loc+ 574.75 : Effort- 35435.43}
+sway with 8 evals {:Loc+ 938.12 : Risk- 6.63 : Effort- 19589.46} {: Risk- 5.51 :Loc+ 656.27 : Effort- 22797.91}
+xpln on 8 evals   {: Risk- 4.51 :Loc+ 999.93 : Effort- 25757.75} {: Risk- 4.78 :Loc+ 577.72 : Effort- 29887.64}
+
+-----------
+explain = {: Time [[-inf, 3.0]]}
+all               {: Effort- 30506.37 : Risk- 6.59 :Loc+ 1009.04} {: Risk- 6.04 :Loc+ 574.75 : Effort- 35435.43}
+sway with 8 evals {: Risk- 6.44 : Effort- 16850.8 :Loc+ 979.54} {: Effort- 20605.18 :Loc+ 630.29 : Risk- 5.26}
+xpln on 8 evals   {:Loc+ 0.0 : Effort- 0.0 : Risk- 0.0} {:Loc+ 0.0 : Effort- 0.0 : Risk- 0.0}
+
+-----------
+explain = {: Pvol [[3.0, 4.0]]}
+all               {: Effort- 30506.37 : Risk- 6.59 :Loc+ 1009.04} {: Risk- 6.04 :Loc+ 574.75 : Effort- 35435.43}
+sway with 8 evals {:Loc+ 1006.89 : Effort- 33876.67 : Risk- 6.13} {:Loc+ 555.96 : Risk- 6.16 : Effort- 35733.34}
+xpln on 8 evals   {:Loc+ 1006.51 : Risk- 6.37 : Effort- 28087.54} {: Risk- 5.93 :Loc+ 572.2 : Effort- 31388.75}
+
+-----------
+explain = {: Pvol [[-inf, 2.0]]}
+all               {: Effort- 30506.37 : Risk- 6.59 :Loc+ 1009.04} {: Risk- 6.04 :Loc+ 574.75 : Effort- 35435.43}
+sway with 8 evals {:Loc+ 1068.56 : Effort- 25140.44 : Risk- 5.0} {:Loc+ 582.32 : Risk- 5.48 : Effort- 30095.62}
+xpln on 8 evals   {:Loc+ 0.0 : Effort- 0.0 : Risk- 0.0} {:Loc+ 0.0 : Effort- 0.0 : Risk- 0.0}
+
+-----------
+explain = {: Pvol [[3.0, 4.0]]}
+all               {: Effort- 30506.37 : Risk- 6.59 :Loc+ 1009.04} {: Risk- 6.04 :Loc+ 574.75 : Effort- 35435.43}
+sway with 8 evals {:Loc+ 1010.3 : Risk- 3.82 : Effort- 27367.27} {: Risk- 4.37 : Effort- 25498.16 :Loc+ 577.29}
+xpln on 8 evals   {:Loc+ 1006.51 : Risk- 6.37 : Effort- 28087.54} {: Risk- 5.93 :Loc+ 572.2 : Effort- 31388.75}
+
+-----------
+explain = {: Tool [[3.0, 4.0]]}
+all               {: Effort- 30506.37 : Risk- 6.59 :Loc+ 1009.04} {: Risk- 6.04 :Loc+ 574.75 : Effort- 35435.43}
+sway with 8 evals {: Effort- 16104.7 :Loc+ 1031.92 : Risk- 3.86} {: Effort- 16931.25 : Risk- 4.33 :Loc+ 584.12}
+xpln on 8 evals   {: Effort- 30324.18 : Risk- 5.94 :Loc+ 1016.82} {: Effort- 33015.88 :Loc+ 570.18 : Risk- 5.71}
+
+-----------
+explain = {: Arch [[4.0, 5.0]]}
+all               {: Effort- 30506.37 : Risk- 6.59 :Loc+ 1009.04} {: Risk- 6.04 :Loc+ 574.75 : Effort- 35435.43}
+sway with 8 evals {:Loc+ 934.68 : Risk- 5.42 : Effort- 24916.38} {:Loc+ 532.96 : Effort- 23717.01 : Risk- 4.56}
+xpln on 8 evals   {: Risk- 6.46 : Effort- 29641.14 :Loc+ 1013.82} {:Loc+ 576.3 : Risk- 5.83 : Effort- 34250.16}
+
+-----------
+explain = {: Data [[2.0, 3.0]]}
+all               {: Effort- 30506.37 : Risk- 6.59 :Loc+ 1009.04} {: Risk- 6.04 :Loc+ 574.75 : Effort- 35435.43}
+sway with 8 evals {:Loc+ 1007.32 : Risk- 6.46 : Effort- 21720.47} {: Risk- 5.46 : Effort- 17447.61 :Loc+ 534.83}
+xpln on 8 evals   {: Risk- 6.48 : Effort- 23696.4 :Loc+ 978.87} {:Loc+ 576.32 : Effort- 28269.1 : Risk- 6.07}
+
+-----------
+explain = {: Tool [[-inf, 1.0]]}
+all               {: Effort- 30506.37 : Risk- 6.59 :Loc+ 1009.04} {: Risk- 6.04 :Loc+ 574.75 : Effort- 35435.43}
+sway with 8 evals {: Effort- 13443.59 :Loc+ 929.44 : Risk- 4.21} {:Loc+ 596.11 : Risk- 4.79 : Effort- 13289.45}
+xpln on 8 evals   {:Loc+ 0.0 : Effort- 0.0 : Risk- 0.0} {:Loc+ 0.0 : Effort- 0.0 : Risk- 0.0}
+
+-----------
+explain = {: Pvol [[-inf, 2.0]]}
+all               {: Effort- 30506.37 : Risk- 6.59 :Loc+ 1009.04} {: Risk- 6.04 :Loc+ 574.75 : Effort- 35435.43}
+
+*** sway ***
+Loc+: 1004.9404999999999
+[1066.35, 889.53, 996.55, 1079.14, 1051.03, 1095.85, 998.01, 1088.95, 988.09, 964.32, 938.12, 979.54, 1006.89, 1068.56, 1010.3, 1031.92, 934.68, 1007.32, 929.44, 974.22]
+ Risk-: 5.219999999999999
+[4.94, 3.76, 9.29, 6.22, 5.0, 8.2, 2.75, 5.38, 3.1, 3.11, 6.63, 6.44, 6.13, 5.0, 3.82, 3.86, 5.42, 6.46, 4.21, 4.68]
+ Effort-: 26372.006000000005
+[32079.22, 16202.58, 44357.46, 24171.38, 38488.32, 29314.63, 20465.41, 62396.01, 19792.79, 19959.58, 19589.46, 16850.8, 33876.67, 25140.44, 27367.27, 16104.7, 24916.38, 21720.47, 13443.59, 21202.96]
+***
+sway with 8 evals {: Risk- 4.68 : Effort- 21202.96 :Loc+ 974.22} {: Effort- 20045.09 :Loc+ 532.76 : Risk- 4.97}
+
+*** xpln ***
+Loc+: 604.8125000000001
+[1006.51, 0.0, 0.0, 1031.64, 1013.82, 1008.85, 0.0, 0.0, 1004.12, 1008.85, 999.93, 0.0, 1006.51, 0.0, 1006.51, 1016.82, 1013.82, 978.87, 0.0, 0.0]
+ Risk-: 4.019
+[6.37, 0.0, 0.0, 13.78, 5.69, 5.89, 0.0, 0.0, 6.63, 5.89, 4.51, 0.0, 6.37, 0.0, 6.37, 5.94, 6.46, 6.48, 0.0, 0.0]
+ Effort-: 17308.467500000002
+[28087.54, 0.0, 0.0, 37207.69, 28872.45, 24844.62, 0.0, 0.0, 36717.88, 24844.62, 25757.75, 0.0, 28087.54, 0.0, 28087.54, 30324.18, 29641.14, 23696.4, 0.0, 0.0]
+***
+xpln on 8 evals   {:Loc+ 0.0 : Effort- 0.0 : Risk- 0.0} {:Loc+ 0.0 : Effort- 0.0 : Risk- 0.0}
+

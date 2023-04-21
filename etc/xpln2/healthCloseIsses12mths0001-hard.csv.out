@@ -1,0 +1,139 @@
+/home/etlin/Documents/ncsu/spring2023_csc791_ase/ASE_spring23_proj/src/xpln2/../../data/healthCloseIsses12mths0001-hard.csv
+-----------
+explain = {:criterion ['squared_error']}
+all               {:PRED40+ 22.1 :MRE- 82.32 :ACC+ 5.15} {:MRE- 12.45 :ACC+ 3.82 :PRED40+ 13.53}
+sway with 8 evals {:MRE- 73.56 :PRED40+ 16.67 :ACC+ 7.61} {:ACC+ 1.31 :PRED40+ 11.86 :MRE- 4.23}
+xpln on 8 evals   {:ACC+ 7.71 :MRE- 73.74 :PRED40+ 18.51} {:MRE- 2.68 :ACC+ 1.94 :PRED40+ 10.97}
+
+-----------
+explain = {:criterion ['squared_error']}
+all               {:PRED40+ 22.1 :MRE- 82.32 :ACC+ 5.15} {:MRE- 12.45 :ACC+ 3.82 :PRED40+ 13.53}
+sway with 8 evals {:ACC+ 7.74 :MRE- 73.08 :PRED40+ 19.69} {:MRE- 2.92 :PRED40+ 10.29 :ACC+ 0.92}
+xpln on 8 evals   {:ACC+ 7.71 :MRE- 73.74 :PRED40+ 18.51} {:MRE- 2.68 :ACC+ 1.94 :PRED40+ 10.97}
+
+-----------
+explain = {:criterion ['squared_error']}
+all               {:PRED40+ 22.1 :MRE- 82.32 :ACC+ 5.15} {:MRE- 12.45 :ACC+ 3.82 :PRED40+ 13.53}
+sway with 8 evals {:MRE- 73.4 :ACC+ 7.63 :PRED40+ 15.82} {:ACC+ 1.13 :PRED40+ 12.13 :MRE- 3.66}
+xpln on 8 evals   {:ACC+ 7.71 :MRE- 73.74 :PRED40+ 18.51} {:MRE- 2.68 :ACC+ 1.94 :PRED40+ 10.97}
+
+-----------
+explain = {:criterion ['squared_error']}
+all               {:PRED40+ 22.1 :MRE- 82.32 :ACC+ 5.15} {:MRE- 12.45 :ACC+ 3.82 :PRED40+ 13.53}
+sway with 8 evals {:ACC+ 9.34 :PRED40+ 17.34 :MRE- 74.18} {:PRED40+ 11.34 :ACC+ 3.95 :MRE- 3.15}
+xpln on 8 evals   {:ACC+ 7.71 :MRE- 73.74 :PRED40+ 18.51} {:MRE- 2.68 :ACC+ 1.94 :PRED40+ 10.97}
+
+-----------
+explain = {:criterion ['poisson']}
+all               {:PRED40+ 22.1 :MRE- 82.32 :ACC+ 5.15} {:MRE- 12.45 :ACC+ 3.82 :PRED40+ 13.53}
+sway with 8 evals {:PRED40+ 21.99 :MRE- 85.25 :ACC+ 4.24} {:ACC+ 3.86 :MRE- 13.4 :PRED40+ 15.14}
+xpln on 8 evals   {:MRE- 73.73 :PRED40+ 18.89 :ACC+ 7.61} {:ACC+ 1.13 :MRE- 2.38 :PRED40+ 10.73}
+
+-----------
+explain = {:criterion ['poisson']}
+all               {:PRED40+ 22.1 :MRE- 82.32 :ACC+ 5.15} {:MRE- 12.45 :ACC+ 3.82 :PRED40+ 13.53}
+sway with 8 evals {:MRE- 73.41 :PRED40+ 16.77 :ACC+ 7.64} {:MRE- 3.64 :PRED40+ 11.82 :ACC+ 1.13}
+xpln on 8 evals   {:MRE- 73.73 :PRED40+ 18.89 :ACC+ 7.61} {:ACC+ 1.13 :MRE- 2.38 :PRED40+ 10.73}
+
+-----------
+explain = {:criterion ['poisson']}
+all               {:PRED40+ 22.1 :MRE- 82.32 :ACC+ 5.15} {:MRE- 12.45 :ACC+ 3.82 :PRED40+ 13.53}
+sway with 8 evals {:MRE- 73.65 :PRED40+ 20.19 :ACC+ 7.56} {:ACC+ 0.47 :MRE- 1.53 :PRED40+ 9.92}
+xpln on 8 evals   {:MRE- 73.73 :PRED40+ 18.89 :ACC+ 7.61} {:ACC+ 1.13 :MRE- 2.38 :PRED40+ 10.73}
+
+-----------
+explain = {:criterion ['poisson']}
+all               {:PRED40+ 22.1 :MRE- 82.32 :ACC+ 5.15} {:MRE- 12.45 :ACC+ 3.82 :PRED40+ 13.53}
+sway with 8 evals {:MRE- 75.01 :PRED40+ 21.59 :ACC+ 7.14} {:ACC+ 1.77 :PRED40+ 9.65 :MRE- 6.04}
+xpln on 8 evals   {:MRE- 73.73 :PRED40+ 18.89 :ACC+ 7.61} {:ACC+ 1.13 :MRE- 2.38 :PRED40+ 10.73}
+
+-----------
+explain = {:criterion ['poisson']}
+all               {:PRED40+ 22.1 :MRE- 82.32 :ACC+ 5.15} {:MRE- 12.45 :ACC+ 3.82 :PRED40+ 13.53}
+sway with 8 evals {:PRED40+ 18.75 :MRE- 73.69 :ACC+ 8.13} {:ACC+ 2.8 :PRED40+ 10.89 :MRE- 2.08}
+xpln on 8 evals   {:MRE- 73.73 :PRED40+ 18.89 :ACC+ 7.61} {:ACC+ 1.13 :MRE- 2.38 :PRED40+ 10.73}
+
+-----------
+explain = {:criterion ['poisson']}
+all               {:PRED40+ 22.1 :MRE- 82.32 :ACC+ 5.15} {:MRE- 12.45 :ACC+ 3.82 :PRED40+ 13.53}
+sway with 8 evals {:PRED40+ 18.35 :MRE- 73.68 :ACC+ 7.71} {:PRED40+ 11.11 :ACC+ 1.65 :MRE- 1.86}
+xpln on 8 evals   {:MRE- 73.73 :PRED40+ 18.89 :ACC+ 7.61} {:ACC+ 1.13 :MRE- 2.38 :PRED40+ 10.73}
+
+-----------
+explain = {:criterion ['poisson']}
+all               {:PRED40+ 22.1 :MRE- 82.32 :ACC+ 5.15} {:MRE- 12.45 :ACC+ 3.82 :PRED40+ 13.53}
+sway with 8 evals {:PRED40+ 17.63 :ACC+ 7.75 :MRE- 73.06} {:MRE- 3.37 :PRED40+ 11.47 :ACC+ 1.05}
+xpln on 8 evals   {:MRE- 73.73 :PRED40+ 18.89 :ACC+ 7.61} {:ACC+ 1.13 :MRE- 2.38 :PRED40+ 10.73}
+
+-----------
+explain = {:criterion ['absolute_error']}
+all               {:PRED40+ 22.1 :MRE- 82.32 :ACC+ 5.15} {:MRE- 12.45 :ACC+ 3.82 :PRED40+ 13.53}
+sway with 8 evals {:PRED40+ 16.09 :ACC+ 1.17 :MRE- 96.35} {:ACC+ 2.78 :MRE- 7.95 :PRED40+ 17.7}
+xpln on 8 evals   {:ACC+ 0.07 :PRED40+ 28.99 :MRE- 99.74} {:ACC+ 0.57 :MRE- 1.77 :PRED40+ 15.64}
+
+-----------
+explain = {:criterion ['squared_error']}
+all               {:PRED40+ 22.1 :MRE- 82.32 :ACC+ 5.15} {:MRE- 12.45 :ACC+ 3.82 :PRED40+ 13.53}
+sway with 8 evals {:MRE- 73.24 :ACC+ 7.9 :PRED40+ 17.88} {:PRED40+ 11.79 :ACC+ 3.55 :MRE- 3.88}
+xpln on 8 evals   {:ACC+ 7.71 :MRE- 73.74 :PRED40+ 18.51} {:MRE- 2.68 :ACC+ 1.94 :PRED40+ 10.97}
+
+-----------
+explain = {:criterion ['squared_error']}
+all               {:PRED40+ 22.1 :MRE- 82.32 :ACC+ 5.15} {:MRE- 12.45 :ACC+ 3.82 :PRED40+ 13.53}
+sway with 8 evals {:MRE- 73.56 :ACC+ 7.94 :PRED40+ 14.08} {:ACC+ 3.6 :MRE- 5.72 :PRED40+ 12.4}
+xpln on 8 evals   {:ACC+ 7.71 :MRE- 73.74 :PRED40+ 18.51} {:MRE- 2.68 :ACC+ 1.94 :PRED40+ 10.97}
+
+-----------
+explain = {:criterion ['poisson']}
+all               {:PRED40+ 22.1 :MRE- 82.32 :ACC+ 5.15} {:MRE- 12.45 :ACC+ 3.82 :PRED40+ 13.53}
+sway with 8 evals {:ACC+ 8.68 :MRE- 73.69 :PRED40+ 17.19} {:PRED40+ 11.14 :MRE- 2.7 :ACC+ 3.28}
+xpln on 8 evals   {:MRE- 73.73 :PRED40+ 18.89 :ACC+ 7.61} {:ACC+ 1.13 :MRE- 2.38 :PRED40+ 10.73}
+
+-----------
+explain = {:criterion ['poisson']}
+all               {:PRED40+ 22.1 :MRE- 82.32 :ACC+ 5.15} {:MRE- 12.45 :ACC+ 3.82 :PRED40+ 13.53}
+sway with 8 evals {:ACC+ 7.6 :PRED40+ 20.57 :MRE- 73.52} {:PRED40+ 9.61 :ACC+ 0.58 :MRE- 1.87}
+xpln on 8 evals   {:MRE- 73.73 :PRED40+ 18.89 :ACC+ 7.61} {:ACC+ 1.13 :MRE- 2.38 :PRED40+ 10.73}
+
+-----------
+explain = {:criterion ['squared_error']}
+all               {:PRED40+ 22.1 :MRE- 82.32 :ACC+ 5.15} {:MRE- 12.45 :ACC+ 3.82 :PRED40+ 13.53}
+sway with 8 evals {:MRE- 73.68 :ACC+ 8.23 :PRED40+ 16.14} {:MRE- 4.83 :PRED40+ 12.2 :ACC+ 4.65}
+xpln on 8 evals   {:ACC+ 7.71 :MRE- 73.74 :PRED40+ 18.51} {:MRE- 2.68 :ACC+ 1.94 :PRED40+ 10.97}
+
+-----------
+explain = {:criterion ['poisson']}
+all               {:PRED40+ 22.1 :MRE- 82.32 :ACC+ 5.15} {:MRE- 12.45 :ACC+ 3.82 :PRED40+ 13.53}
+sway with 8 evals {:PRED40+ 18.35 :MRE- 73.95 :ACC+ 7.47} {:ACC+ 0.67 :MRE- 2.18 :PRED40+ 11.11}
+xpln on 8 evals   {:MRE- 73.73 :PRED40+ 18.89 :ACC+ 7.61} {:ACC+ 1.13 :MRE- 2.38 :PRED40+ 10.73}
+
+-----------
+explain = {:criterion ['poisson']}
+all               {:PRED40+ 22.1 :MRE- 82.32 :ACC+ 5.15} {:MRE- 12.45 :ACC+ 3.82 :PRED40+ 13.53}
+sway with 8 evals {:MRE- 73.72 :PRED40+ 20.31 :ACC+ 7.54} {:PRED40+ 9.82 :ACC+ 0.64 :MRE- 2.08}
+xpln on 8 evals   {:MRE- 73.73 :PRED40+ 18.89 :ACC+ 7.61} {:ACC+ 1.13 :MRE- 2.38 :PRED40+ 10.73}
+
+-----------
+explain = {:criterion ['squared_error']}
+all               {:PRED40+ 22.1 :MRE- 82.32 :ACC+ 5.15} {:MRE- 12.45 :ACC+ 3.82 :PRED40+ 13.53}
+
+*** sway ***
+MRE-: 75.37500000000001
+[73.56, 73.08, 73.4, 74.18, 85.25, 73.41, 73.65, 75.01, 73.69, 73.68, 73.06, 96.35, 73.24, 73.56, 73.69, 73.52, 73.68, 73.95, 73.72, 73.82]
+ACC+: 7.327500000000001
+[7.61, 7.74, 7.63, 9.34, 4.24, 7.64, 7.56, 7.14, 8.13, 7.71, 7.75, 1.17, 7.9, 7.94, 8.68, 7.6, 8.23, 7.47, 7.54, 7.53]
+PRED40+: 18.239
+[16.67, 19.69, 15.82, 17.34, 21.99, 16.77, 20.19, 21.59, 18.75, 18.35, 17.63, 16.09, 17.88, 14.08, 17.19, 20.57, 16.14, 18.35, 20.31, 19.38]
+***
+sway with 8 evals {:ACC+ 7.53 :PRED40+ 19.38 :MRE- 73.82} {:ACC+ 0.53 :PRED40+ 10.51 :MRE- 1.56}
+
+*** xpln ***
+MRE-: 75.03450000000001
+[73.74, 73.74, 73.74, 73.74, 73.73, 73.73, 73.73, 73.73, 73.73, 73.73, 73.73, 99.74, 73.74, 73.74, 73.73, 73.73, 73.74, 73.73, 73.73, 73.74]
+ACC+: 7.273000000000001
+[7.71, 7.71, 7.71, 7.71, 7.61, 7.61, 7.61, 7.61, 7.61, 7.61, 7.61, 0.07, 7.71, 7.71, 7.61, 7.61, 7.71, 7.61, 7.61, 7.71]
+PRED40+: 19.242999999999995
+[18.51, 18.51, 18.51, 18.51, 18.89, 18.89, 18.89, 18.89, 18.89, 18.89, 18.89, 28.99, 18.51, 18.51, 18.89, 18.89, 18.51, 18.89, 18.89, 18.51]
+***
+xpln on 8 evals   {:ACC+ 7.71 :MRE- 73.74 :PRED40+ 18.51} {:MRE- 2.68 :ACC+ 1.94 :PRED40+ 10.97}
+

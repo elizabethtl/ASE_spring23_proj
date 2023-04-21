@@ -1,5 +1,12 @@
 \begin{thebibliography}{1}
 
+\bibitem{bingham2001random}
+E.~Bingham and H.~Mannila.
+\newblock Random projection in dimensionality reduction: applications to image
+  and text data.
+\newblock In {\em Proceedings of the seventh ACM SIGKDD international
+  conference on Knowledge discovery and data mining}, pages 245--250, 2001.
+
 \bibitem{chen2018sampling}
 J.~Chen, V.~Nair, R.~Krishna, and T.~Menzies.
 \newblock “sampling” as a baseline optimizer for search-based software
@@ -17,5 +24,10 @@ R.~T. Marler and J.~S. Arora.
 \newblock Survey of multi-objective optimization methods for engineering.
 \newblock {\em Structural and multidisciplinary optimization}, 26:369--395,
   2004.
+
+\bibitem{zhu2005semi}
+X.~J. Zhu.
+\newblock Semi-supervised learning literature survey.
+\newblock 2005.
 
 \end{thebibliography}

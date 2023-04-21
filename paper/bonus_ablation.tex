@@ -1,2 +1,28 @@
 \section{Bonus: Ablation Study}
 \label{sec:bonus_ablation}
+
+
+\begin{table}[]
+  \begin{tabular}{lllll}
+                      & CityMPG+ & HighwayMPG+ & Weight- & Class- \\
+                      \hline
+  none                & 26.02    & 32.38       & 2661.03 & 13.75  \\
+  luggage             & 25.69    & 32.05       & 2702.21 & 14.92  \\
+  manual transmission & 25.22    & 31.82       & 2689.13 & 14.23  \\
+  maker               & 25.11    & 31.53       & 2812.98 & 16.59 
+  \end{tabular}
+  \caption{removed features and model performance in ablation study}
+  \label{tab:ablation}
+  \end{table}
+
+
+  For our ablation study, we used the auto2 dataset. We removed one of
+  the x columns each time and ran sway on the new data. This would help
+  us in identifying which features are more important than others. We
+  listed the features that had made a noticeable difference in the
+  objective values when removed in table \ref{tab:ablation}. Features
+  that were not listed did not yield noticeable difference when we ran
+  our experiments. As shown in the table, we can infer that three of the
+  features: the maker of the car, the luggage capacity, and whether
+  manual transmission was available were important in maximizing or
+  minimizing the objectives.

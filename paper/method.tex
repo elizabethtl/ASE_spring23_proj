@@ -37,12 +37,11 @@ would return a value ranging from -0.85 to 1.15.
   def dist(row1, row2):
     n = 0
     d = 0 
-  for col in x_columns:
-    n += 1
-    d += col.dist(row1[col_index], 
-            row2[col_index])**dist_coefficient
-    d = d * (1+ random_num(-RAND, RAND))
-
+    for col in x_columns:
+      n += 1
+      d += col.dist(row1[col_index], 
+              row2[col_index])^constant
+      d = d * (1+ random_num(-RAND, RAND))
     return (d/n)**(1/dist_coefficient)
 \end{lstlisting}
 
@@ -74,13 +73,16 @@ to time concerns.
   columns have a plus or minus sign, this means they are the objectives,
   a minus sign means we try to minimize this value, while a plus sign
   means we try to maximize the value. Table \ref{tab:dataset} shows
-  statistics on these objective columns.  
+  statistics on these objective columns, which we use as a baseline to
+  compare the results from our experiments.
 
-  For example, the auto2 dataset has a total of twenty-three columns,
+  To understand the data, let us take auto2 as an example, the auto2
+  dataset has a total of twenty-three columns,
   which includes four objectives, or y columns: \textit{CityMPG+,
   HighwayMPG+, Weight-, Class-}. The remaining nineteen columns,
   \textit{type, engine\_size, horsepower, etc.}, are x columns. 
-  Our methods would cluster data based on the nineteen x columns to
+  Our methods would cluster data based on the nineteen x columns and
+  choose data from each cluster to most effectively
   maximize or minimize the values of the objectives.
 
 

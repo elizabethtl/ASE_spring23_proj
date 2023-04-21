@@ -1,2 +1,54 @@
 \section{Bonus: Requirements Study}
 \label{sec:bonus_requirements}
+
+For our requirements study, we collected five reqgrids with a common
+theme of TV shows. We asked the participants to come up with TV shows
+and characteristics and rate the shows based on them. An example of the
+output for clustering the TV shows can be seen in listing
+\ref{lst:grid}. The outputs of each grid can be found in the GitHub
+repository. A common characteristic
+many people came up with was whether the show was easy to watch or full
+of suspense. From the results, we observe that this was often also the
+most significant feature that separated shows. We could infer that the
+story and tone of the show could have a great influence on viewers'
+rating of the show. Other less significant feature included whether the
+show was realistic, episode length, connection to previous seasons, etc.
+We might conclude from the results that these characteristics have less
+of an effect on how the audience rates the show.
+
+\begin{minipage}{\linewidth}
+  \begin{lstlisting}[
+    basicstyle=\small,
+    caption={example of repgrid output},
+    label={lst:grid}
+  ]
+    90
+    |..69
+    |..|..41
+    |..|..|..Schitts Creek
+    |..|..|..New Girl
+    |..|..65
+    |..|..|..Narcos
+    |..|..|..Ted Lasso
+    |..84
+    |..|..61
+    |..|..|..The Last of Us
+    |..|..|..Beef
+    |..|..84
+    |..|..|..Loki
+    |..|..|..84
+    |..|..|..|..Greys Anatomy
+    |..|..|..|..Moonknight
+    80
+    |..50
+    |..|..Easy to watch:Full of Suspense
+    |..|..60
+    |..|..|..not much diversity:diversity
+    |..|..|..Family Friendly:violent
+    |..72
+    |..|..short total length:long
+    |..|..42
+    |..|..|..poor visual effect:good visual
+    |..|..|..normal characters:good looking characters
+  \end{lstlisting}
+\end{minipage}

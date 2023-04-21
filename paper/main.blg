@@ -5,44 +5,46 @@ Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: abbrv.bst
 Reallocating 'name_of_file' (item size: 1) to 5 items.
 Database file #1: main.bib
-You've used 3 entries,
+Warning--empty journal in zhu2005semi
+You've used 5 entries,
             2118 wiz_defined-function locations,
-            523 strings with 4258 characters,
-and the built_in function-call counts, 1076 in all, are:
-= -- 109
-> -- 49
-< -- 0
-+ -- 19
-- -- 16
-* -- 86
-:= -- 186
-add.period$ -- 9
-call.type$ -- 3
-change.case$ -- 17
+            533 strings with 4637 characters,
+and the built_in function-call counts, 1730 in all, are:
+= -- 175
+> -- 69
+< -- 1
++ -- 27
+- -- 22
+* -- 118
+:= -- 285
+add.period$ -- 15
+call.type$ -- 5
+change.case$ -- 26
 chr.to.int$ -- 0
-cite$ -- 3
-duplicate$ -- 33
-empty$ -- 81
-format.name$ -- 16
-if$ -- 214
+cite$ -- 6
+duplicate$ -- 66
+empty$ -- 139
+format.name$ -- 22
+if$ -- 360
 int.to.chr$ -- 0
-int.to.str$ -- 3
-missing$ -- 3
-newline$ -- 18
-num.names$ -- 6
-pop$ -- 11
+int.to.str$ -- 5
+missing$ -- 5
+newline$ -- 28
+num.names$ -- 10
+pop$ -- 25
 preamble$ -- 1
-purify$ -- 14
+purify$ -- 21
 quote$ -- 0
-skip$ -- 23
+skip$ -- 51
 stack$ -- 0
-substring$ -- 90
-swap$ -- 3
-text.length$ -- 0
+substring$ -- 132
+swap$ -- 14
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 12
-warning$ -- 0
-while$ -- 12
-width$ -- 4
-write$ -- 35
+type$ -- 20
+warning$ -- 1
+while$ -- 19
+width$ -- 6
+write$ -- 55
+(There was 1 warning)

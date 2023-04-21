@@ -1,2 +1,15 @@
 \section{Bonus: February Study}
 \label{sec:bonus_february}
+
+For our february study, we take a look back at our results for xpln. As
+xpln picks a rule to best distinguish between the best and rest data
+returned by sway. We could make use of results and rules from a previous
+study to help in future studies. Xpln performs better than sway in
+certain datasets, which we highlighted in blue in the tables. 
+If we were to minimize risk in the dataset
+\textit{coc10000}, we could filter data first according to the rule
+given by xpln. In one of our runs of experiments on \textit{coc10000},
+the rule \verb|{data ['n']}| chosen by xpln yielded better results than
+sway. For future studies, we could collect a set of rules that xpln
+performs better on, and preprocess the data using those rules to get
+better results.

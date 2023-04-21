@@ -1,20 +1,47 @@
 \section{Results}
 \label{sec:results}
 
+In this section, we discuss results of our experiments. We specifically
+discuss our
+results from a sample size of 500 out of the many sample sizes. 
+Table \ref{tab:auto2}-\ref{tab:coc10000} shows some of our results. For
+more results, please refer to the GitHub repository.
 
-In this section, we discuss results of our experiments. We present our
-results from a sample size of 500 out of the many sample sizes. We
-observe that adding randomness in our model achieved mixed results. In
-most cases, sway2 performs slightly worse or similarly to sway1.
-However, there are certain cases where sway2 performs better. For
-example, sway2 performs better when we try to maximize \textit{Kloc} for
-the \textit{nasa93dem} dataset. We indicate objectives where sway2
-performs better than as red in our tables. As sway2 introduces
-randomness, we can infer that the characteristics in the dataset may
-have a smaller correlation to the objective values, or that closely
-clustered x columns do not have as strong a correlation to certain
-objectives. For example, closely clustered x columns for coc1000 may not
-have similar values for the \textit{Effort} objective. 
+\subsection{Sway1 vs. Sway2}
+  We
+  observe that adding randomness in our model achieved mixed results. In
+  most cases, sway2 performs slightly worse or similarly to sway1.
+  However, there are certain cases where sway2 performs better. For
+  example, sway2 performs better when we try to maximize \textit{Kloc} for
+  the \textit{nasa93dem} dataset. We indicate objectives where sway2
+  performs better than as red in our tables. As sway2 introduces
+  randomness, we can infer that 
+  for these objectives, closely clustered data points based on the x
+  columns do not necessarily relate to similar values for the objectives.
+  For example, in table \ref{tab:coc1000}, closely clustered x columns
+  for coc1000 may not
+  have similar values for the \textit{Effort} objective. 
+  The same can be seen in table \ref{tab:nasa93dem} and
+  \ref{tab:coc10000}.
+  Results labeled top are results yielded from comparing all data.
+  Logically, this returned the best results, however it is also the most
+  time-consuming method. Comparing sway to top, we observe that there is
+  a noticeable decrease in performance, this is often referred to as the
+  \textit{sampling tax}. This shows we sacrifice the optimal values for
+  in exchange for time when implementing sway. 
+  
+\subsection{Xpln}
+  We applied sway1 and sway2 to xpln, which we labeled as xpln1 and
+  xpln2 in our tables. As shown from the tables, for most cases, xpln
+  performs slightly worse than sway along. This loss in performance is
+  the \textit{explanation tax}. This is due to the fact that xpln uses
+  simpler rules to distinguish the data points. However, there are cases
+  in which xpln performs better than sway, we infer that this shows that
+  data for certain features can be clustered using simpler rules. We
+  highlighted cases where xpln performs better than sway in blue in
+  tables \ref{tab:auto2}, \ref{tab:coc1000}, \ref{tab:coc10000}.
+  Understanding phenomenon like this could be useful where we would
+  conduct future studies, as we discuss in section \ref{sec:bonus_february}.
 
 \subsection{Sample size}
   We also conducted experiments with different sample sizes in an attempt
@@ -50,9 +77,9 @@ have similar values for the \textit{Effort} objective.
           & CityMPG+      & Class-     & HighwayMPG+ & Weight-   \\
     \hline
     sway1 & 26.02         & 13.75      & 32.38       & 2661.03 \\
-    xpln1 & 27.07         & 16.17      & 33.14       & 2632.12   \\
+    xpln1 & \myblue{27.07}   & 16.17      & 33.14       & 2632.12   \\
     sway2 & 24.363        & 16.86      & 31.25       & 2845.97   \\
-    xpln2 & 25.26         & 16.72      & 25          & 2781.65   \\
+    xpln2 & \myblue{25.26}  & 16.72      & 25          & 2781.65   \\
     top   & 37.16         & 9.26       & 41.75       & 2040.98    
   \end{tabular}
   \end{center}
@@ -78,21 +105,21 @@ have similar values for the \textit{Effort} objective.
 \end{table}
 
 
-\begin{table}[]
-  \begin{center}
-  \begin{tabular}{ll}
-        & N\_effort- \\
-  \hline
-  sway1 & 1800.38    \\
-  xpln1 & 2619.90    \\
-  sway2 & 1965.81    \\
-  xpln2 & 2431.86    \\
-  top   & 145.94    
-  \end{tabular}
-  \end{center}
-  \caption{Results for china.csv}
-  \label{tab:china}
-\end{table}
+% \begin{table}[]
+%   \begin{center}
+%   \begin{tabular}{ll}
+%         & N\_effort- \\
+%   \hline
+%   sway1 & 1800.38    \\
+%   xpln1 & 2619.90    \\
+%   sway2 & 1965.81    \\
+%   xpln2 & 2431.86    \\
+%   top   & 145.94    
+%   \end{tabular}
+%   \end{center}
+%   \caption{Results for china.csv}
+%   \label{tab:china}
+% \end{table}
 
 
 \begin{table}[]
@@ -101,9 +128,9 @@ have similar values for the \textit{Effort} objective.
         & LOC+    & AEXP- & PLEX- & RISK- & Effort-  \\
   \hline
   sway1 & 1027.74 & 3.05  & 2.88  & 5.08  & 29321.05 \\
-  xpln1 & 913.11  & 2.67  & 2.73  & 5.7   & 27416.45 \\
+  xpln1 & 913.11  & \myblue{2.67}  & \myblue{2.73}  & 5.7 & 27416.45 \\
   sway2 & 999.59  & \myred{2.92}  & 3.02  & 6.12  & \myred{28323.93} \\
-  xpln2 & 918.43  & \myred{2.66}  & 2.73  & 6.0   & \myred{26910.59} \\
+  xpln2 & 918.43  & \myred{2.66}  & \myblue{2.73}  & 6.0   & \myred{26910.59} \\
   top   & 1571.43 & 1.62  & 1.39  & 4.7   & 35116.16
   \end{tabular}
 \end{center}
@@ -157,36 +184,36 @@ have similar values for the \textit{Effort} objective.
   \label{tab:health-easy}
 \end{table}
 
-\begin{table}[]
-  \begin{center}
-    \begin{tabular}{lllll}
-          & PSNR-  &   Energy-    \\
-    \hline
-    sway1 & 44.48  &   1126.28   \\
-    xpln1 & 44.29  &   1621.32     \\
-    sway2 & 44.21  &   1612.90      \\
-    xpln2 & 44.46  &   1640.16          
-    \end{tabular}
-  \end{center}
-  \caption{Results for SSN.csv}
-  \label{tab:ssn}
-\end{table}
+% \begin{table}[]
+%   \begin{center}
+%     \begin{tabular}{lllll}
+%           & PSNR-  &   Energy-    \\
+%     \hline
+%     sway1 & 44.48  &   1126.28   \\
+%     xpln1 & 44.29  &   1621.32     \\
+%     sway2 & 44.21  &   1612.90      \\
+%     xpln2 & 44.46  &   1640.16          
+%     \end{tabular}
+%   \end{center}
+%   \caption{Results for SSN.csv}
+%   \label{tab:ssn}
+% \end{table}
 
 
-\begin{table}[]
-  \begin{center}
-    \begin{tabular}{lllll}
-          & NUMBERITERATIONS-    \\
-    \hline
-    sway1 & 5.37   \\
-    xpln1 & 10.20     \\
-    sway2 & 6.27      \\
-    xpln2 & 9.37         
-    \end{tabular}
-  \end{center}
-  \caption{Results for SSM.csv}
-  \label{tab:ssm}
-\end{table}
+% \begin{table}[]
+%   \begin{center}
+%     \begin{tabular}{lllll}
+%           & NUMBERITERATIONS-    \\
+%     \hline
+%     sway1 & 5.37   \\
+%     xpln1 & 10.20     \\
+%     sway2 & 6.27      \\
+%     xpln2 & 9.37         
+%     \end{tabular}
+%   \end{center}
+%   \caption{Results for SSM.csv}
+%   \label{tab:ssm}
+% \end{table}
 
 \begin{table}[]
   \begin{center}
@@ -194,7 +221,7 @@ have similar values for the \textit{Effort} objective.
           & LOC+   &    RISK- &   EFFORT-     \\
     \hline
     sway1 & 1004.94&    5.22   &  26372.00  \\
-    xpln1 & 604.81  &   4.02   &  17308.46     \\
+    xpln1 & 604.81  &   \myblue{4.02}  &  \myblue{17308.46}   \\
     sway2 & 1006.16  &  \myred{4.57}   &  \myred{24570.96}      \\
     xpln2 & 454.17   &  \myred{2.71}   &  \myred{13859.63}        
     \end{tabular}

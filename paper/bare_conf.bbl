@@ -1,0 +1,21 @@
+\begin{thebibliography}{1}
+
+\bibitem{chen2018sampling}
+J.~Chen, V.~Nair, R.~Krishna, and T.~Menzies.
+\newblock “sampling” as a baseline optimizer for search-based software
+  engineering.
+\newblock {\em IEEE Transactions on Software Engineering}, 45(6):597--614,
+  2018.
+
+\bibitem{harman2001search}
+M.~Harman and B.~F. Jones.
+\newblock Search-based software engineering.
+\newblock {\em Information and software Technology}, 43(14):833--839, 2001.
+
+\bibitem{marler2004MOOsurvey}
+R.~T. Marler and J.~S. Arora.
+\newblock Survey of multi-objective optimization methods for engineering.
+\newblock {\em Structural and multidisciplinary optimization}, 26:369--395,
+  2004.
+
+\end{thebibliography}

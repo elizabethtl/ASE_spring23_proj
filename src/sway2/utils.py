@@ -7,10 +7,11 @@ from value import VALUE
 def cosine(a, b, c):
   # print(f"a: {a}, b: {b}, c: {c}")
   if c == 0:
+    # return 0, 0
     return a or b
 
   x1 = (a**2 + c**2 - b**2) / (2*c)
-  x2 = max(0, min(1, x1))
+  x2 = max(0, min(1, x1))           # in the incremental case, x1 might be outside 0,1
   y = abs((a**2 - x2**2)) ** 0.5
 
   if isinstance(y, complex):

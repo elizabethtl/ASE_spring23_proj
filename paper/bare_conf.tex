@@ -1,0 +1,96 @@
+%% bare_conf.tex
+%% V1.4b
+%% 2015/08/26
+%% by Michael Shell
+%% See:
+%% http://www.michaelshell.org/
+%% for current contact information.
+
+\documentclass[conference]{IEEEtran}
+
+\usepackage{xcolor}
+\newcommand\myred[1]{\textcolor{red}{#1}}
+\usepackage{listings}
+
+% correct bad hyphenation here
+\hyphenation{op-tical net-works semi-conduc-tor}
+
+
+\begin{document}
+%
+% paper title
+% Titles are generally capitalized except for words such as a, an, and, as,
+% at, but, by, for, in, nor, of, on, or, the, to and up, which are usually
+% not capitalized unless they are the first or last word of the title.
+% Linebreaks \\ can be used within to get better formatting as desired.
+% Do not put math or special symbols in the title.
+\title{Bare Demo of IEEEtran.cls\\ for IEEE Conferences}
+
+
+% author names and affiliations
+% use a multiple column layout for up to three different
+% affiliations
+\author{\IEEEauthorblockN{Elizabeth Lin}
+\IEEEauthorblockA{Department of Computer Science\\
+North Carolina State University\\
+Raleigh, North Carolina\\
+Email: etlin@ncsu.edu}}
+
+
+
+% make the title area
+\maketitle
+
+% As a general rule, do not put math, special symbols or citations
+% in the abstract
+\begin{abstract}
+The abstract goes here.
+\end{abstract}
+
+% no keywords
+
+
+
+
+% For peer review papers, you can put extra information on the cover
+% page as needed:
+% \ifCLASSOPTIONpeerreview
+% \begin{center} \bfseries EDICS Category: 3-BBND \end{center}
+% \fi
+%
+% For peerreview papers, this IEEEtran command inserts a page break and
+% creates the second title. It will be ignored for other modes.
+\IEEEpeerreviewmaketitle
+
+
+\input{intro.tex}
+
+\input{relwork.tex}
+
+\input{method.tex}
+
+\input{results.tex}
+
+\input{discussion.tex}
+
+\input{bonus_requirements.tex}
+
+\input{bonus_february.tex}
+
+\input{bonus_ablation.tex}
+
+\input{bonus_hpo.tex}
+
+
+
+
+\bibliographystyle{abbrv}
+\bibliography{main}
+
+
+
+
+% that's all folks
+\end{document}
+
+

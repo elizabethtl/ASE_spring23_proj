@@ -8,7 +8,10 @@ _p = 2
 _seed = 937162211
 
 # sampling data size
-_sample = 20
+_sample = 512
 
 # distance to "faraway"
 _far = 0.95
+
+# add randomness to distance
+_randomness = 0.15

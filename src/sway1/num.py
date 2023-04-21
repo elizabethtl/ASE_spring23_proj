@@ -10,8 +10,8 @@ class NUM:
     self.n = 0
     self.mu = 0
     self.m2 = 0
-    self.lo = -math.inf
-    self.hi = math.inf
+    self.lo = math.inf
+    self.hi = -math.inf
     # print(re.search("-$", self.txt))
     self.w = -1 if re.search("-$", self.txt) else 1
 
@@ -19,7 +19,7 @@ class NUM:
     if x != "?":
       self.n = self.n + 1
       # convert x from string to int
-      x = int(float(x))
+      x = float(x)
       d = x - self.mu
       self.mu = self.mu + d/self.n
       self.m2 = self.m2 + d*(x - self.mu)
@@ -38,8 +38,13 @@ class NUM:
     return x if x=="?" else utils.rnd(x, n)
 
   def norm(self, n):
-    return n== "?" if n else (n-self.lo)/(self.hi-self.lo+1e-32)
-
+    # return n if n== "?" else (n-self.lo)/(self.hi-self.lo+1e-32)
+    rang = 1
+    if self.hi != self.lo:
+      rang = self.hi - self.lo
+    return n if n== "?" else (n-self.lo)/rang
+  
+  
   def dist(self, n1, n2):
     if n1=="?" and n2=="?":
       return 1

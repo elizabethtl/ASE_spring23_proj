@@ -128,6 +128,10 @@ class DATA:
       n += 1
       d += col.dist(row1.cells[col.at], row2.cells[col.at])**config._p
     # print(f"return: {(d/n)**(1/the['p'])}")
+
+        ## add randomness to comparing cols.x
+    d = d * (1+random.uniform(-config._randomness, config._randomness))
+
     return (d/n)**(1/config._p)
 
   # true if `row1` is better than another

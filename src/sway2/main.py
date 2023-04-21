@@ -18,8 +18,8 @@ dir_path = os.path.abspath(os.path.dirname(__file__))
 # print(data_file_list)
 # print()
 
-# file = sys.argv[1]
-file = 'auto2.csv'
+file = sys.argv[1]
+# file = 'auto2.csv'
 
 data_dir = '../../data/'
 
@@ -31,7 +31,7 @@ print()
 
 print(f"min: {config._min}")
 print(f"far: {config._far}")
-
+print(f"randomness: {config._randomness}")
 
 sample_size_list = [10, 25, 50, 100, 200, 500, 1000]
 for size in sample_size_list:

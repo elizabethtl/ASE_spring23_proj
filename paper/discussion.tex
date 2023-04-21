@@ -4,8 +4,16 @@
   As sway is the current state-of-the-art method, we spent the majority
   of our time unpacking and understanding sway. We did not want to
   completely reinvent the wheel, thus our new method builds on top of
-  it. Future work can be done on further extending and making changes to
+  it. Future work can be done on further extending and fine-tuning to
   sway to achieve better performance.
+
+  We would want to further explore how sample size in sway effects the
+  results. Our current results do not show a positive correlation
+  between the objectives and sample size, which is contrary to our
+  intuition. As discussed in section \ref{ssec:sample_size}, we belive
+  the current implementation does not take full use of different sample
+  sizes. For future work, we would like to modify this so that results
+  are in line with the sampling tax assumption.
 
   \subsection{Threats to validity}
     Our method was based off of sway, we were given sample code of sway
@@ -13,3 +21,5 @@
     to implement it, there might be small details where we missed or
     misunderstood. This could result in our experiments and results being
     slightly inaccurate. 
+
+  

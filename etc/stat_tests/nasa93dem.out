@@ -1,10 +1,10 @@
 -------
-CityMPG+
+Kloc+
 all to all        True 
-all to sway1      False
-all to sway2      False
+all to sway1      True 
+all to sway2      True 
 all to xpln1      False
-all to xpln2      False
+all to xpln2      True 
 all to top        False
 sway1 to sway2    True 
 sway1 to xpln1    True 
@@ -18,12 +18,12 @@ xpln1 to top      False
 xpln2 to top      False
 
 -------
-HighwayMPG+
+Effort-
 all to all        True 
 all to sway1      False
-all to sway2      False
+all to sway2      True 
 all to xpln1      False
-all to xpln2      False
+all to xpln2      True 
 all to top        False
 sway1 to sway2    True 
 sway1 to xpln1    True 
@@ -37,12 +37,12 @@ xpln1 to top      False
 xpln2 to top      False
 
 -------
-Weight-
+Defects-
 all to all        True 
 all to sway1      False
-all to sway2      False
+all to sway2      True 
 all to xpln1      False
-all to xpln2      False
+all to xpln2      True 
 all to top        False
 sway1 to sway2    True 
 sway1 to xpln1    True 
@@ -56,14 +56,14 @@ xpln1 to top      False
 xpln2 to top      False
 
 -------
-Class-
+Months-
 all to all        True 
-all to sway1      False
-all to sway2      False
+all to sway1      True 
+all to sway2      True 
 all to xpln1      False
 all to xpln2      False
 all to top        False
-sway1 to sway2    False
+sway1 to sway2    True 
 sway1 to xpln1    True 
 sway1 to xpln2    True 
 sway1 to top      False

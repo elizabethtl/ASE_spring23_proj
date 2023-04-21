@@ -1,0 +1,19 @@
+-------
+N_effort-
+all to all        True 
+all to sway1      False
+all to sway2      False
+all to xpln1      False
+all to xpln2      False
+all to top        False
+sway1 to sway2    True 
+sway1 to xpln1    False
+sway1 to xpln2    True 
+sway1 to top      False
+sway2 to xpln1    True 
+sway2 to xpln2    True 
+sway2 to top      False
+xpln1 to xpln2    True 
+xpln1 to top      False
+xpln2 to top      False
+

@@ -1,10 +1,10 @@
 -------
-CityMPG+
+LOC+
 all to all        True 
-all to sway1      False
-all to sway2      False
-all to xpln1      False
-all to xpln2      False
+all to sway1      True 
+all to sway2      True 
+all to xpln1      True 
+all to xpln2      True 
 all to top        False
 sway1 to sway2    True 
 sway1 to xpln1    True 
@@ -18,12 +18,31 @@ xpln1 to top      False
 xpln2 to top      False
 
 -------
-HighwayMPG+
+ AEXP-
 all to all        True 
 all to sway1      False
-all to sway2      False
-all to xpln1      False
-all to xpln2      False
+all to sway2      True 
+all to xpln1      True 
+all to xpln2      True 
+all to top        False
+sway1 to sway2    True 
+sway1 to xpln1    True 
+sway1 to xpln2    False
+sway1 to top      False
+sway2 to xpln1    True 
+sway2 to xpln2    True 
+sway2 to top      False
+xpln1 to xpln2    True 
+xpln1 to top      False
+xpln2 to top      False
+
+-------
+ PLEX-
+all to all        True 
+all to sway1      False
+all to sway2      True 
+all to xpln1      True 
+all to xpln2      True 
 all to top        False
 sway1 to sway2    True 
 sway1 to xpln1    True 
@@ -37,7 +56,26 @@ xpln1 to top      False
 xpln2 to top      False
 
 -------
-Weight-
+ RISK-
+all to all        True 
+all to sway1      False
+all to sway2      True 
+all to xpln1      True 
+all to xpln2      True 
+all to top        False
+sway1 to sway2    True 
+sway1 to xpln1    True 
+sway1 to xpln2    True 
+sway1 to top      True 
+sway2 to xpln1    True 
+sway2 to xpln2    True 
+sway2 to top      True 
+xpln1 to xpln2    True 
+xpln1 to top      False
+xpln2 to top      False
+
+-------
+ EFFORT-
 all to all        True 
 all to sway1      False
 all to sway2      False
@@ -45,25 +83,6 @@ all to xpln1      False
 all to xpln2      False
 all to top        False
 sway1 to sway2    True 
-sway1 to xpln1    True 
-sway1 to xpln2    True 
-sway1 to top      False
-sway2 to xpln1    True 
-sway2 to xpln2    True 
-sway2 to top      False
-xpln1 to xpln2    True 
-xpln1 to top      False
-xpln2 to top      False
-
--------
-Class-
-all to all        True 
-all to sway1      False
-all to sway2      False
-all to xpln1      False
-all to xpln2      False
-all to top        False
-sway1 to sway2    False
 sway1 to xpln1    True 
 sway1 to xpln2    True 
 sway1 to top      False

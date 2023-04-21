@@ -230,10 +230,6 @@ INPUT ./bonus_ablation.tex
 INPUT bonus_ablation.tex
 INPUT /home/etlin/.miktex/texmfs/install/fonts/vf/adobe/times/ptmr7t.vf
 INPUT /home/etlin/.miktex/texmfs/install/fonts/tfm/adobe/times/ptmr8r.tfm
-INPUT ./bonus_hpo.tex
-INPUT bonus_hpo.tex
-INPUT ./bonus_hpo.tex
-INPUT bonus_hpo.tex
 INPUT ./main.bbl
 INPUT main.bbl
 INPUT ./main.bbl

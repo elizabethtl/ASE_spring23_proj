@@ -1,0 +1,22 @@
+def func():
+  global repgrid_value
+  repgrid_value = {
+  'domain': "dissementian platforms",
+  'cols': [                  ['poor visual effect', 2, 3, 3, 2, 4, 4, 3, 3, 5, 'good visual'],
+                                  ['Easy to watch', 4, 5, 2, 2, 3, 3, 2, 2, 4, 'Full of Suspense'],
+                             ['short total length', 4, 2, 3, 5, 2, 3, 4, 4, 2, 'long'],
+                            ['not much diversity' , 2, 3, 2, 4, 3, 2, 3, 2, 4, 'diversity'],
+                                ['Family Friendly', 4, 5, 3, 2, 3, 3, 2, 2, 4, 'violent'],
+                              ['normal characters', 3, 2, 3, 3, 4, 5, 3, 3, 2, 'good looking characters']],
+    'rows': [                           [ None, None, None, None, None, None, None, None, 'The Last of Us'],
+                                        [ None, None, None, None, None, None, None, 'New Girl'],
+                                        [ None, None, None, None, None, None, 'Schitts Creek'],
+                                        [ None, None, None, None, None,  'Loki'],
+                                        [ None, None, None, None,  'Moonknight'],
+                                        [ None, None, None,  'Greys Anatomy'],
+                                        [ None, None,  'Ted Lasso'],
+                                        [ None, 'Beef'],
+                                        ['Narcos']]
+  }
+
+func()

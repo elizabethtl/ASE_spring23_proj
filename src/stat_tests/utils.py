@@ -54,6 +54,8 @@ def cliffsDelta(ns1, ns2):
   return abs(lt - gt)/n <= config._cliff
 
 def bootstrap(y0, z0):
+  if y0 == z0:
+    return True
   x, y, z = NUM(), NUM(), NUM()
   yhat, zhat = [], []
   for y1 in y0:
@@ -74,4 +76,6 @@ def bootstrap(y0, z0):
     if (delta(NUM(samples(yhat)), NUM(samples(zhat)))) > tobs:
       n += 1
   
+  # print(n/config._bootstrap, config._conf)
+
   return n/config._bootstrap >= config._conf

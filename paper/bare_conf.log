@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.3.31)  21 APR 2023 00:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.3.31)  21 APR 2023 00:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -214,47 +214,47 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 ) (results.tex
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 23.
+               Default added (so using `tbp') on input line 32.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 40.
+               Default added (so using `tbp') on input line 49.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 57.
+               Default added (so using `tbp') on input line 66.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 74.
+               Default added (so using `tbp') on input line 83.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 90.
+               Default added (so using `tbp') on input line 99.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 106.
+               Default added (so using `tbp') on input line 115.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 121.
+               Default added (so using `tbp') on input line 130.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 136.
+               Default added (so using `tbp') on input line 145.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 152.
+               Default added (so using `tbp') on input line 161.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 167.
+               Default added (so using `tbp') on input line 176.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 183.
+               Default added (so using `tbp') on input line 192.
 
 ) (discussion.tex) (bonus_requirements.tex) (bonus_february.tex) (bonus_ablation.tex) (bonus_hpo.tex) (bare_conf.bbl)
 
@@ -268,9 +268,7 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[2
-
-] [3] [4
+[2] [3] [4
 
 ] (bare_conf.aux) ) 
 Here is how much of TeX's memory you used:
@@ -282,7 +280,7 @@ Here is how much of TeX's memory you used:
  1144 hyphenation exceptions out of 8191
  39i,9n,48p,277b,1223s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {/home/etlin/.miktex/texmfs/install/fonts/enc/dvips/base/8r.enc}</home/etlin/.miktex/texmfs/install/fonts/type1/urw/times/utmb8a.pfb></home/etlin/.miktex/texmfs/install/fonts/type1/urw/times/utmbi8a.pfb></home/etlin/.miktex/texmfs/install/fonts/type1/urw/times/utmr8a.pfb></home/etlin/.miktex/texmfs/install/fonts/type1/urw/times/utmri8a.pfb>
-Output written on bare_conf.pdf (4 pages, 67368 bytes).
+Output written on bare_conf.pdf (4 pages, 68040 bytes).
 PDF statistics:
  36 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

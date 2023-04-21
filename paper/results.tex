@@ -18,7 +18,16 @@ have similar values for the \textit{Effort} objective.
 
 We also conducted experiments with different sample sizes in an attempt
 to achieve better results with more samples. However, we did not observe
-a clear correlation between sample sizes and the objectives. 
+a clear correlation between sample sizes and the objectives. Table
+\ref{tab:sample_nasa93dem} shows varying sample sizes for the
+\textit{nasa93dem} dataset. Upon receiving these results, we went back
+to check how sample size was implemented in the code. Sample size has an
+effect when selecting the two points when splitting data into two
+halves. The first point is selected at random, and the second point is
+selected from a group of data that is of sample size. However, that is
+the extent of which sample size has an effect. Thus, we infer that
+sample size does not have enough effect in our code to influence the
+results. 
 
 \begin{table}[]
   \begin{center}

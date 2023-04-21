@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex bare_conf"] 1682051681 "bare_conf.aux" "bare_conf.bbl" "bare_conf" 1682052224
+["bibtex bare_conf"] 1682051681 "bare_conf.aux" "bare_conf.bbl" "bare_conf" 1682052679
   "/home/etlin/.miktex/texmfs/install/bibtex/bst/bibtex/abbrv.bst" 1666303951 20329 b5fed53e10044d0f8112183785c759b1 ""
-  "bare_conf.aux" 1682052224 4395 f9e30f0f38e751a04c17bcf4759d22d5 "pdflatex"
+  "bare_conf.aux" 1682052679 4395 f9e30f0f38e751a04c17bcf4759d22d5 "pdflatex"
   "main.bib" 1681859360 878 4032241ad13bf042898c67b2b3686337 ""
   (generated)
   "bare_conf.bbl"
   "bare_conf.blg"
-["pdflatex"] 1682052224 "/home/etlin/Documents/ncsu/spring2023_csc791_ase/ASE_spring23_proj/paper/bare_conf.tex" "bare_conf.pdf" "bare_conf" 1682052224
+["pdflatex"] 1682052679 "/home/etlin/Documents/ncsu/spring2023_csc791_ase/ASE_spring23_proj/paper/bare_conf.tex" "bare_conf.pdf" "bare_conf" 1682052679
   "/home/etlin/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map" 1670364518 82507 a9eef8696c92627b87e9975edea03b2a ""
   "/home/etlin/.miktex/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt" 1680287165 10783357 97ee93ced3dbb07d21200c6139add906 ""
   "/home/etlin/.miktex/texmfs/install/fonts/enc/dvips/base/8r.enc" 1666303952 4993 1194fb36dfcb11d9ae9802f2b00b60a3 ""
@@ -50,7 +50,7 @@
   "/home/etlin/.miktex/texmfs/install/tex/latex/psnfss/ts1ptm.fd" 1666304321 653 3c2b212581b38326a2d43769c35b19e7 ""
   "/home/etlin/.miktex/texmfs/install/tex/latex/xcolor/xcolor.sty" 1666303963 56148 51a9a8571c07b9921892ae11063ae853 ""
   "/home/etlin/Documents/ncsu/spring2023_csc791_ase/ASE_spring23_proj/paper/bare_conf.tex" 1682050345 1909 072f96d7940fc113046c31a94043db8a ""
-  "bare_conf.aux" 1682052224 4395 f9e30f0f38e751a04c17bcf4759d22d5 "pdflatex"
+  "bare_conf.aux" 1682052679 4395 f9e30f0f38e751a04c17bcf4759d22d5 "pdflatex"
   "bare_conf.bbl" 1682051681 692 507ceaf441c626df5a0899d1b9ba3247 "bibtex bare_conf"
   "bare_conf.tex" 1682050345 1909 072f96d7940fc113046c31a94043db8a ""
   "bonus_ablation.tex" 1681782101 58 81623bb8e3a4c02da7c4a18e2cf52a5b ""
@@ -62,7 +62,7 @@
   "intro.tex" 1681781825 510 b98dd9e94a3540facfc3669e5af1f903 ""
   "method.tex" 1682052224 3566 0e7ddae2c58bc90e93d1aa843c6d7a68 ""
   "relwork.tex" 1681859381 1318 7eadd9230b461c894fb8c1c4825230fc ""
-  "results.tex" 1682052224 5954 747f8aa69e47d5cce52ebbf64a2becc5 ""
+  "results.tex" 1682052679 6519 a0d2143e45025c13acfabc39c66f35df ""
   (generated)
   "bare_conf.aux"
   "bare_conf.log"

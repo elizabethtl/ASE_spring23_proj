@@ -196,12 +196,15 @@ def repPlace(data):
       g[i].append(" ")
   maxy = 0
   print()
+  # print(len(g))
   for r, row in enumerate(data.rows):
     c = chr(97+r).upper()
     print(c, last(row.cells))
     x, y = int(row.x*n//1), int(row.y*n//1)
     maxy = max(maxy, y+1)
-    g[y+1][x+1] = c
+    # print(x, y)
+    # g[y+1][x+1] = c
+    g[y][x] = c
   print()
   for y in range(maxy):
     oo(g[y])
